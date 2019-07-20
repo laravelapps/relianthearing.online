@@ -1,0 +1,17 @@
+
+* {
+    font-family:Arial, Helvetica, sans-serif !important;
+}
+
+.HearingTest-test--part {
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+
+.hidden-xs .hidden-sm {
+    display:inherit !important;
+}
+
+.sched-appt-link, .sched-appt-click-text {
+    display:none !important;
+}

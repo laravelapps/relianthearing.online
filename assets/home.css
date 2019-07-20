@@ -1,0 +1,4130 @@
+/* Number Base */
+/* Colors */
+/* Teal - PMS 3125C */
+/* Blue - PMS 654C */
+/* Gold - PMS 124C */
+/* Orange - PMS 716C */
+/* Red - PMS 485C */
+/* Bergundy - PMS 194C */
+/*  Extends --------------------------------------------------------- */
+.link-arrow-after {
+  content: "\e258";
+  position: relative;
+  font-size: 1rem;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.link-arrow-before {
+  content: "\e257";
+  position: relative;
+  font-size: 1rem;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/*  Mixins ---------------------------------------------------------- */
+/*  Mr Eaves */
+/*  DIN Next -------------------------------------------------------- */
+/* Global Items  -------------------------------------------------- */
+#home .main-container {
+  overflow: hidden; }
+
+#home .navbar-default .navbar-nav > li > a.active {
+  color: #ea7600 !important;
+  background-color: #e7e7e7 !important;
+  background-color: rgba(200, 200, 200, 0.3) !important; }
+
+#home .three-tier .navbar-default .navbar-nav > li > a.active {
+  color: #3b3d40 !important; }
+
+#home p {
+  color: #000; }
+
+#home h1 {
+  font-size: 54px;
+  font-size: 5.4rem;
+  line-height: 54px;
+  line-height: 5.4rem;
+  color: #000; }
+  #home h1 sup {
+    top: -1.1em;
+    font-size: 33%; }
+
+#home h2 {
+  margin-top: 10px;
+  font-size: 19px;
+  font-size: 1.9rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  color: #000;
+  text-align: center; }
+
+a:hover {
+  color: #ea7600; }
+
+p a:after {
+  content: "\e258";
+  position: relative;
+  font-size: 1rem;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* styles for videos in Hearing Loss and Don't Wait */
+.video-left {
+  margin-bottom: 10px; }
+
+.content h3 {
+  margin-bottom: 5px; }
+
+.content p {
+  font-family: 'DIN Next W02 Light', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 22px;
+  line-height: 2.2rem;
+  color: #000; }
+
+.image a {
+  position: relative;
+  display: inline-block;
+  float: right;
+  width: 100%;
+  max-width: 150px; }
+
+.image img {
+  width: 100%;
+  max-width: 150px;
+  margin-top: 15px;
+  border: 4px solid #e1e1e1;
+  border-radius: 50%;
+  background-clip: padding-box; }
+
+.image .image-caption {
+  background: url("../img/play-button-overlay.png") no-repeat 0 0;
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  margin-top: -15px;
+  margin-left: -15px; }
+
+.image a:hover img {
+  border-color: #ccc; }
+
+.image a:hover .image-caption {
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media (min-width: 570px) {
+  .content p {
+    padding-right: 20%; } }
+@media (min-width: 768px) {
+  .video-left {
+    margin-bottom: 0; }
+
+  .video-left .image,
+  .video-right .image,
+  .video-left .content,
+  .video-right .content {
+    padding: 0;
+    text-align: center; }
+
+  .image a {
+    float: none; }
+
+  .content p {
+    padding-right: 0; } }
+/* END styles for videos in Hearing Loss and Don't Wait */
+/* Carousel -------------------------------------------------- */
+#hero-carousel {
+  padding-top: 80px;
+  padding-bottom: 0; }
+  @media (min-width: 992px) {
+    #hero-carousel {
+      padding-top: 0; } }
+
+#main-carousel .carousel-inner > .item {
+  height: 440px; }
+  @media (min-width: 667px) {
+    #main-carousel .carousel-inner > .item {
+      height: 450px; } }
+  @media (min-width: 768px) {
+    #main-carousel .carousel-inner > .item {
+      height: 410px; } }
+  @media (min-width: 992px) {
+    #main-carousel .carousel-inner > .item {
+      height: 480px;
+      padding-top: 80px; } }
+
+.carousel-control.left,
+.carousel-control.right {
+  display: none;
+  background: none;
+  /* removed default gradient bkgd */ }
+
+.carousel-indicators {
+  bottom: 0; }
+  .carousel-indicators li {
+    border: 1px solid #b1b3b3;
+    background-color: #fff; }
+  .carousel-indicators .active {
+    background-color: #b1b3b3; }
+
+#hero-carousel a.cta {
+  display: block;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 18px;
+  line-height: 1.8rem;
+  color: #00b7c6; }
+  #hero-carousel a.cta:after {
+    content: "\e258";
+    position: relative;
+    font-size: 1rem;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 2px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: middle; }
+  #hero-carousel a.cta:hover {
+    color: #ea7600; }
+
+.home-top-social {
+  float: left; }
+  .home-top-social .footer-social a {
+    height: 42px;
+    margin-bottom: 0; }
+
+.home-top-social .american-owned {
+  display: none;
+  /* hide American Owned button on sliders */ }
+
+/* SLIDE 1: Hear better. Live better. */
+#hero-carousel .slide-hear-better-live-better {
+  background: url("../img/home/bkgd-slide-hear-better-xs.jpg") bottom center no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-hear-better-live-better {
+      padding-top: 40px;
+      background: url("../img/home/bkgd-slide-hear-better-sm.jpg") center right no-repeat;
+      -webkit-background-size: contain;
+              background-size: contain; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-hear-better-live-better {
+      background-position: bottom right;
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-hear-better-live-better {
+      background: url("../img/home/bkgd-slide-hear-better-md.jpg") bottom center no-repeat; } }
+  #hero-carousel .slide-hear-better-live-better .footer-social {
+    float: none;
+    margin-right: 0; }
+
+#hero-carousel .slide-hear-better-live-better h1 {
+  font-size: 44px;
+  font-size: 4.4rem;
+  line-height: 42px;
+  line-height: 4.2rem;
+  color: #00b7c6;
+  text-align: left; }
+  #hero-carousel .slide-hear-better-live-better h1 span {
+    font-family: 'Mr Eaves', Helvetica, Arial, sans-serif; }
+  @media (min-width: 375px) {
+    #hero-carousel .slide-hear-better-live-better h1 {
+      font-size: 54px;
+      font-size: 5.4rem;
+      line-height: 48px;
+      line-height: 4.8rem; } }
+  @media (min-width: 414px) {
+    #hero-carousel .slide-hear-better-live-better h1 {
+      font-size: 60px;
+      font-size: 6rem;
+      line-height: 50px;
+      line-height: 5rem; } }
+  @media (min-width: 568px) {
+    #hero-carousel .slide-hear-better-live-better h1 {
+      font-size: 44px;
+      font-size: 4.4rem;
+      line-height: 44px;
+      line-height: 4.4rem; } }
+  @media (min-width: 667px) {
+    #hero-carousel .slide-hear-better-live-better h1 {
+      font-size: 52px;
+      font-size: 5.2rem;
+      line-height: 46px;
+      line-height: 4.6rem; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-hear-better-live-better h1 {
+      font-size: 70px;
+      font-size: 7rem;
+      line-height: 58px;
+      line-height: 5.8rem; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-hear-better-live-better h1 {
+      padding-top: 32px; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-hear-better-live-better h1 {
+      font-size: 74px;
+      font-size: 7.4rem;
+      line-height: 60px;
+      line-height: 6rem; } }
+
+#hero-carousel .slide-hear-better-live-better p {
+  font-family: 'DIN Next W02 Light', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 22px;
+  line-height: 2.2rem; }
+  @media (min-width: 414px) {
+    #hero-carousel .slide-hear-better-live-better p {
+      font-size: 18px;
+      font-size: 1.8rem;
+      line-height: 24px;
+      line-height: 2.4rem; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-hear-better-live-better p {
+      font-size: 16px;
+      font-size: 1.6rem;
+      line-height: 24px;
+      line-height: 2.4rem; } }
+
+/* END slide1 */
+/* SLIDE 2: Halo: Better hearing is being your best */
+#hero-carousel .slide-halo2 {
+  background: url("../img/home/bkgd-slide-halo2-xs.jpg") bottom center no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 667px) {
+    #hero-carousel .slide-halo2 {
+      padding-right: 6%;
+      padding-left: 40%; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-halo2 {
+      padding-right: 0;
+      padding-left: 0;
+      background: url("../img/home/bkgd-slide-halo2-sm.jpg") bottom left no-repeat;
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-halo2 {
+      background: url("../img/home/bkgd-slide-halo2-md.jpg") center left no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-halo2 {
+      background-position: center bottom; } }
+  #hero-carousel .slide-halo2 .product-container {
+    position: relative;
+    height: 200px;
+    width: 210px;
+    background: url("../img/home/product-halo2.png") bottom center no-repeat;
+    right: 0;
+    bottom: 0;
+    display: none; }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-halo2 .product-container {
+        right: -670px;
+        bottom: -140px;
+        -webkit-background-size: 180px 180px;
+                background-size: 180px;
+        display: block; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-halo2 .product-container {
+        right: -730px;
+        bottom: -120px;
+        -webkit-background-size: 210px 210px;
+                background-size: 210px;
+        display: block; } }
+
+#hero-carousel .slide-halo2 h1 {
+  font-size: 42px;
+  font-size: 4.2rem;
+  line-height: 42px;
+  line-height: 4.2rem; }
+  @media (min-width: 414px) {
+    #hero-carousel .slide-halo2 h1 {
+      font-size: 46px;
+      font-size: 4.6rem;
+      line-height: 42px;
+      line-height: 4.2rem; } }
+  @media (min-width: 550px) {
+    #hero-carousel .slide-halo2 h1 {
+      font-size: 38px;
+      font-size: 3.8rem;
+      line-height: 36px;
+      line-height: 3.6rem; } }
+  @media (min-width: 667px) {
+    #hero-carousel .slide-halo2 h1 {
+      margin-top: 30px;
+      font-size: 48px;
+      font-size: 4.8rem;
+      line-height: 45px;
+      line-height: 4.5rem; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-halo2 h1 {
+      margin-top: 56px;
+      font-size: 52px;
+      font-size: 5.2rem;
+      line-height: 48px;
+      line-height: 4.8rem; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-halo2 h1 {
+      font-size: 58px;
+      font-size: 5.8rem;
+      line-height: 60px;
+      line-height: 6rem; } }
+
+#hero-carousel .slide-halo2 h3 {
+  margin-top: 10px;
+  font-size: 28px;
+  font-size: 2.8rem;
+  line-height: 28px;
+  line-height: 2.8rem;
+  color: #00b7c6; }
+  @media (min-width: 667px) {
+    #hero-carousel .slide-halo2 h3 {
+      margin-top: 15px;
+      font-size: 32px;
+      font-size: 3.2rem;
+      line-height: 32px;
+      line-height: 3.2rem; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-halo2 h3 {
+      font-size: 36px;
+      font-size: 3.6rem;
+      line-height: 36px;
+      line-height: 3.6rem; } }
+
+@media (min-width: 667px) {
+  #hero-carousel .slide-halo2 p {
+    margin-bottom: 15px; } }
+@media (min-width: 992px) {
+  #hero-carousel .slide-halo2 p {
+    padding: 0 10%;
+    font-size: 17px;
+    font-size: 1.7rem;
+    line-height: 25px;
+    line-height: 2.5rem; } }
+
+@media (min-width: 414px) {
+  #hero-carousel .slide-halo2 a.cta {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 20px;
+    line-height: 2rem; } }
+@media (min-width: 768px) {
+  #hero-carousel .slide-halo2 a.cta {
+    margin-top: 15px;
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 22px;
+    line-height: 2.2rem; } }
+
+/* END slide2
+
+
+/* SLIDE 3: Z Series: Better hearing is staying connected */
+#hero-carousel .slide-muse {
+  background: url("../img/home/bkgd-slide-muse-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-muse {
+      background: url("../img/home/bkgd-slide-muse-sm.jpg") left center no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-muse {
+      background: url("../img/home/bkgd-slide-muse-md.jpg") left center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-muse {
+      background-position: center center; } }
+  #hero-carousel .slide-muse .product-container {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: url("../img/home/product-muse.png") bottom center no-repeat;
+    right: 0;
+    bottom: 0;
+    display: none; }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-muse .product-container {
+        right: -720px;
+        bottom: 130px;
+        -webkit-background-size: 180px 180px;
+                background-size: 180px;
+        display: block; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-muse .product-container {
+        right: -770px;
+        bottom: 160px;
+        -webkit-background-size: 195px 195px;
+                background-size: 195px;
+        display: block; } }
+
+#hero-carousel .slide-muse h1 {
+  font-size: 42px;
+  font-size: 4.2rem;
+  line-height: 42px;
+  line-height: 4.2rem; }
+  @media (min-width: 414px) {
+    #hero-carousel .slide-muse h1 {
+      font-size: 46px;
+      font-size: 4.6rem;
+      line-height: 42px;
+      line-height: 4.2rem; } }
+  @media (min-width: 550px) {
+    #hero-carousel .slide-muse h1 {
+      font-size: 38px;
+      font-size: 3.8rem;
+      line-height: 36px;
+      line-height: 3.6rem; } }
+  @media (min-width: 667px) {
+    #hero-carousel .slide-muse h1 {
+      margin-top: 30px;
+      font-size: 48px;
+      font-size: 4.8rem;
+      line-height: 45px;
+      line-height: 4.5rem; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-muse h1 {
+      margin-top: 56px;
+      font-size: 52px;
+      font-size: 5.2rem;
+      line-height: 48px;
+      line-height: 4.8rem; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-muse h1 {
+      font-size: 58px;
+      font-size: 5.8rem;
+      line-height: 52px;
+      line-height: 5.2rem; } }
+
+#hero-carousel .slide-muse h3 {
+  margin: 16px 0;
+  color: #003a70; }
+  @media (min-width: 375px) {
+    #hero-carousel .slide-muse h3 {
+      font-size: 28px;
+      font-size: 2.8rem;
+      line-height: 28px;
+      line-height: 2.8rem; } }
+  @media (min-width: 414px) {
+    #hero-carousel .slide-muse h3 {
+      font-size: 30px;
+      font-size: 3rem;
+      line-height: 30px;
+      line-height: 3rem; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-muse h3 {
+      font-size: 34px;
+      font-size: 3.4rem;
+      line-height: 34px;
+      line-height: 3.4rem; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-muse h3 {
+      font-size: 38px;
+      font-size: 3.8rem;
+      line-height: 38px;
+      line-height: 3.8rem; } }
+
+#hero-carousel .slide-muse p {
+  margin: 0 3% 16px; }
+  @media (min-width: 375px) {
+    #hero-carousel .slide-muse p {
+      margin: 0 8% 16px; } }
+  @media (min-width: 414px) {
+    #hero-carousel .slide-muse p {
+      margin: 0 12% 16px; } }
+  @media (min-width: 414px) {
+    #hero-carousel .slide-muse p {
+      margin: 0 21% 16px; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-muse p {
+      margin: 0 4% 20px;
+      font-size: 17px;
+      font-size: 1.7rem;
+      line-height: 24px;
+      line-height: 2.4rem; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-muse p {
+      margin: 0 13% 20px; } }
+
+#hero-carousel .slide-muse a.cta {
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 20px;
+  line-height: 2rem;
+  color: #003a70; }
+  #hero-carousel .slide-muse a.cta:hover {
+    color: #ea7600; }
+  @media (min-width: 414px) {
+    #hero-carousel .slide-muse a.cta {
+      font-size: 20px;
+      font-size: 2rem;
+      line-height: 20px;
+      line-height: 2rem; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-muse a.cta {
+      font-size: 24px;
+      font-size: 2.4rem;
+      line-height: 24px;
+      line-height: 2.4rem; } }
+
+/* END slide3 */
+/* SLIDE: January 2018 Better Hearing Campaign */
+#hero-carousel .better-hearing-campaign {
+  background: url("../img/home/bkgd-hearing-better-campaign-xs.jpg") bottom center no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .better-hearing-campaign {
+      padding-right: 0;
+      padding-left: 0;
+      background: url("../img/home/bkgd-hearing-better-campaign-sm.jpg") bottom right no-repeat;
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+  @media (min-width: 992px) {
+    #hero-carousel .better-hearing-campaign {
+      background: url("../img/home/bkgd-hearing-better-campaign-md.jpg") center right no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .better-hearing-campaign {
+      background-position: center bottom; } }
+  #hero-carousel .better-hearing-campaign h1 {
+    color: #00b7c6;
+    margin-top: 30px;
+    font-size: 47px;
+    font-size: 4.7rem;
+    line-height: 49px;
+    line-height: 4.9rem; }
+    @media (min-width: 480px) {
+      #hero-carousel .better-hearing-campaign h1 {
+        font-size: 62px;
+        font-size: 6.2rem;
+        line-height: 63px;
+        line-height: 6.3rem; } }
+  #hero-carousel .better-hearing-campaign h3 {
+    color: #ea7600;
+    font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 33px;
+    font-size: 3.3rem;
+    line-height: 40px;
+    line-height: 4rem;
+    margin-bottom: 40px; }
+  #hero-carousel .better-hearing-campaign .cta {
+    background-color: #00b7c6;
+    color: #fff;
+    font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 24px;
+    line-height: 2.4rem;
+    padding: 10px;
+    width: 225px;
+    margin: 0 auto; }
+    #hero-carousel .better-hearing-campaign .cta:hover {
+      color: #fff;
+      background-color: #ea7600;
+      text-decoration: none; }
+
+/* END SLIDE: January 2018 Better Hearing Campaign */
+/* SLIDE: Muse iQr */
+#hero-carousel .slide-muse-iqr {
+  background: url("../img/home/bkgd-slide-muse-iqr-xs.jpg") bottom center no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-muse-iqr {
+      padding-right: 0;
+      padding-left: 0;
+      background: url("../img/home/bkgd-slide-muse-iqr-sm.jpg") bottom right no-repeat;
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-muse-iqr {
+      background: url("../img/home/bkgd-slide-muse-iqr-md.jpg") center right no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-muse-iqr {
+      background-position: center bottom; } }
+  #hero-carousel .slide-muse-iqr h1 {
+    color: #00b7c6; }
+  #hero-carousel .slide-muse-iqr h3 {
+    color: #ea7600;
+    font-size: 35px;
+    font-size: 3.5rem;
+    line-height: 38px;
+    line-height: 3.8rem; }
+  #hero-carousel .slide-muse-iqr img {
+    max-width: 349px;
+    width: 100%; }
+  #hero-carousel .slide-muse-iqr .cta {
+    color: #ea7600;
+    font-size: 23px;
+    font-size: 2.3rem;
+    line-height: 25px;
+    line-height: 2.5rem;
+    margin: 25px 0 0; }
+  #hero-carousel .slide-muse-iqr .product-container {
+    position: relative;
+    height: 139px;
+    width: 239px;
+    background: url("../img/home/product-muse-iqr.png") bottom center no-repeat;
+    right: 0;
+    bottom: 0;
+    display: none; }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-muse-iqr .product-container {
+        right: 10px;
+        bottom: 180px;
+        -webkit-background-size: 100% 100%;
+                background-size: 100%;
+        display: block; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-muse-iqr .product-container {
+        right: -100px;
+        bottom: 180px;
+        -webkit-background-size: 100% 100%;
+                background-size: 100%;
+        display: block; } }
+
+/* END SLIDE: Muse iQr */
+/* SLIDE HEART HEALTH  */
+#hero-carousel .slide-heart-health {
+  text-align: center;
+  background: url("../img/home/bkgd-slide-heart-health-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100%; }
+  @media (min-width: 500px) {
+    #hero-carousel .slide-heart-health {
+      text-align: left; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-heart-health {
+      background: url("../img/home/bkgd-slide-heart-health-sm.jpg") right bottom no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-heart-health {
+      background: url("../img/home/bkgd-slide-heart-health-md.jpg") right bottom no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-heart-health {
+      background-position: center center; } }
+  @media (min-width: 545px) {
+    #hero-carousel .slide-heart-health .col-sm-12 {
+      padding-left: 40px; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-heart-health .col-sm-12 {
+      padding-left: 160px; } }
+  #hero-carousel .slide-heart-health h1 {
+    color: #00b7c6;
+    margin: 20px 0 25px;
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 36px;
+    line-height: 3.6rem; }
+    @media (min-width: 500px) {
+      #hero-carousel .slide-heart-health h1 {
+        text-align: left;
+        font-size: 44px;
+        font-size: 4.4rem;
+        line-height: 44px;
+        line-height: 4.4rem;
+        width: 100%;
+        max-width: 460px;
+        margin: 20px 0 20px; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-heart-health h1 {
+        font-size: 51px;
+        font-size: 5.1rem;
+        line-height: 51px;
+        line-height: 5.1rem;
+        max-width: 550px;
+        margin: 40px 0 20px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-heart-health h1 {
+        font-size: 52px;
+        font-size: 5.2rem;
+        line-height: 52px;
+        line-height: 5.2rem;
+        max-width: 570px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-heart-health h1 {
+        font-size: 58px;
+        font-size: 5.8rem;
+        line-height: 58px;
+        line-height: 5.8rem;
+        max-width: 620px; } }
+    #hero-carousel .slide-heart-health h1 span {
+      font-weight: bold; }
+  #hero-carousel .slide-heart-health p {
+    margin: 0 0 25px;
+    font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 23px;
+    font-size: 2.3rem;
+    line-height: 23px;
+    line-height: 2.3rem;
+    color: #da291c; }
+    @media (min-width: 500px) {
+      #hero-carousel .slide-heart-health p {
+        text-align: left;
+        max-width: 276px; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-heart-health p {
+        font-size: 27px;
+        font-size: 2.7rem;
+        line-height: 27px;
+        line-height: 2.7rem;
+        max-width: 326px; } }
+  #hero-carousel .slide-heart-health a.cta {
+    background-color: #da291c;
+    text-align: center;
+    color: #fff;
+    height: 52px;
+    border-radius: 26px;
+    display: inline-block;
+    width: 190px;
+    padding-top: 13px;
+    font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 28px;
+    line-height: 2.8rem; }
+    #hero-carousel .slide-heart-health a.cta:hover {
+      text-decoration: none;
+      background-color: #9b2743; }
+    #hero-carousel .slide-heart-health a.cta:after {
+      display: none; }
+
+/* END SLIDE HEART HEALTH  */
+/* SLIDE: Muse iQr int'l */
+#hero-carousel .slide-muse-iqr-intl {
+  background: url("../img/home/bkgd-slide-muse-iqr-xs.jpg") bottom center no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-muse-iqr-intl {
+      padding-right: 0;
+      padding-left: 0;
+      background: url("../img/home/bkgd-slide-muse-iqr-sm.jpg") bottom right no-repeat;
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-muse-iqr-intl {
+      background: url("../img/home/bkgd-slide-muse-iqr-international-md.jpg") center right no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-muse-iqr-intl {
+      background-position: center bottom; } }
+  #hero-carousel .slide-muse-iqr-intl h1 {
+    margin-top: 15px;
+    color: #00b7c6;
+    font-size: 35px;
+    font-size: 3.5rem;
+    line-height: 35px;
+    line-height: 3.5rem; }
+    @media (min-width: 500px) {
+      #hero-carousel .slide-muse-iqr-intl h1 {
+        font-size: 48px;
+        font-size: 4.8rem;
+        line-height: 48px;
+        line-height: 4.8rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-muse-iqr-intl h1 {
+        font-size: 54px;
+        font-size: 5.4rem;
+        line-height: 54px;
+        line-height: 5.4rem; } }
+  #hero-carousel .slide-muse-iqr-intl h3 {
+    margin-top: 10px;
+    color: #ea7600;
+    font-size: 25px;
+    font-size: 2.5rem;
+    line-height: 28px;
+    line-height: 2.8rem; }
+    @media (min-width: 500px) {
+      #hero-carousel .slide-muse-iqr-intl h3 {
+        font-size: 30px;
+        font-size: 3rem;
+        line-height: 33px;
+        line-height: 3.3rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-muse-iqr-intl h3 {
+        font-size: 35px;
+        font-size: 3.5rem;
+        line-height: 38px;
+        line-height: 3.8rem; } }
+  #hero-carousel .slide-muse-iqr-intl .cta {
+    color: #ea7600;
+    font-size: 23px;
+    font-size: 2.3rem;
+    line-height: 25px;
+    line-height: 2.5rem;
+    margin: 15px 0 0; }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-muse-iqr-intl .cta {
+        margin: 11px 0 0; } }
+  #hero-carousel .slide-muse-iqr-intl .charts-container {
+    width: 100%;
+    text-align: center; }
+  #hero-carousel .slide-muse-iqr-intl .circle-chart {
+    display: inline-block;
+    width: 30%;
+    min-height: 120px;
+    background-position: center top;
+    -webkit-background-size: 90% 90%;
+            background-size: 90%;
+    background-repeat: no-repeat;
+    padding: 20% 2px 0;
+    text-align: center;
+    vertical-align: top; }
+    @media (min-width: 450px) {
+      #hero-carousel .slide-muse-iqr-intl .circle-chart {
+        padding: 80px 2px 0;
+        width: 130px;
+        min-height: 140px;
+        -webkit-background-size: 115px 117px;
+                background-size: 115px 117px; } }
+    @media (min-width: 500px) {
+      #hero-carousel .slide-muse-iqr-intl .circle-chart {
+        width: 135px; } }
+    #hero-carousel .slide-muse-iqr-intl .circle-chart.circle-chart.chart-20 {
+      background-image: url("../img/home/circle-chart-20.png"); }
+    #hero-carousel .slide-muse-iqr-intl .circle-chart.circle-chart.chart-30 {
+      background-image: url("../img/home/circle-chart-30.png"); }
+    #hero-carousel .slide-muse-iqr-intl .circle-chart.circle-chart.chart-100 {
+      background-image: url("../img/home/circle-chart-100.png"); }
+    #hero-carousel .slide-muse-iqr-intl .circle-chart .chart-text {
+      display: inline-block;
+      vertical-align: top;
+      color: #00b7c6;
+      font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 12px;
+      font-size: 1.2rem;
+      line-height: 12px;
+      line-height: 1.2rem; }
+      @media (min-width: 450px) {
+        #hero-carousel .slide-muse-iqr-intl .circle-chart .chart-text {
+          font-size: 19px;
+          font-size: 1.9rem;
+          line-height: 19px;
+          line-height: 1.9rem; } }
+  #hero-carousel .slide-muse-iqr-intl .product-container {
+    position: relative;
+    height: 139px;
+    width: 239px;
+    background: url("../img/home/product-muse-iqr.png") bottom center no-repeat;
+    right: 0;
+    bottom: 0;
+    display: none; }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-muse-iqr-intl .product-container {
+        right: 10px;
+        bottom: 180px;
+        -webkit-background-size: 100% 100%;
+                background-size: 100%;
+        display: block; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-muse-iqr-intl .product-container {
+        right: -100px;
+        bottom: 180px;
+        -webkit-background-size: 100% 100%;
+                background-size: 100%;
+        display: block; } }
+
+/* END SLIDE: Muse iQr int'l */
+/* SLIDE: 50th Anniversary */
+#hero-carousel .slide-50th-anniversary {
+  background: url("../img/home/bkgd-slide-50th-xs.jpg") bottom center no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-50th-anniversary {
+      padding-right: 0;
+      padding-left: 0;
+      background: url("../img/home/bkgd-slide-50th-sm.jpg") bottom left no-repeat;
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-50th-anniversary {
+      background: url("../img/home/bkgd-slide-50th-md.jpg") center left no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-50th-anniversary {
+      background-position: center bottom; } }
+  #hero-carousel .slide-50th-anniversary .collage-container {
+    position: relative;
+    height: 320px;
+    width: 291px;
+    background: url("../img/home/collage-50th-anniversary.png") bottom center no-repeat;
+    right: 0;
+    bottom: 0;
+    display: none; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-50th-anniversary .collage-container {
+        right: -110px;
+        bottom: 310px;
+        -webkit-background-size: 200px 200px;
+                background-size: 200px;
+        display: block; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-50th-anniversary .collage-container {
+        right: -180px;
+        bottom: 320px;
+        -webkit-background-size: 280px 280px;
+                background-size: 280px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-50th-anniversary .collage-container {
+        right: -240px;
+        bottom: 310px;
+        -webkit-background-size: 320px 320px;
+                background-size: 320px; } }
+  #hero-carousel .slide-50th-anniversary .cta {
+    display: inline-block;
+    background-color: #ea7600;
+    color: #fff;
+    padding: 10px 75px;
+    margin: 20px 0 0;
+    border-radius: 5px;
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 24px;
+    line-height: 2.4rem; }
+    #hero-carousel .slide-50th-anniversary .cta:hover {
+      color: #fff;
+      text-decoration: none;
+      background-color: #00b7c6; }
+  #hero-carousel .slide-50th-anniversary h1 {
+    font-size: 44px;
+    font-size: 4.4rem;
+    line-height: 44px;
+    line-height: 4.4rem; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-50th-anniversary h1 {
+        font-size: 34px;
+        font-size: 3.4rem;
+        line-height: 34px;
+        line-height: 3.4rem;
+        margin-top: 45px;
+        padding: 10px 0 20px 15px;
+        width: 55%;
+        float: left;
+        text-align: left; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-50th-anniversary h1 {
+        margin-top: 35px;
+        font-size: 44px;
+        font-size: 4.4rem;
+        line-height: 44px;
+        line-height: 4.4rem;
+        padding: 15px 0 15px 15px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-50th-anniversary h1 {
+        font-size: 54px;
+        font-size: 5.4rem;
+        line-height: 54px;
+        line-height: 5.4rem; } }
+  #hero-carousel .slide-50th-anniversary .col-sm-6.col-sm-offset-6 > img {
+    display: block;
+    width: 150px;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-50th-anniversary .col-sm-6.col-sm-offset-6 > img {
+        width: 45%;
+        margin-top: 45px;
+        float: left; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-50th-anniversary .col-sm-6.col-sm-offset-6 > img {
+        margin-top: 35px; } }
+  #hero-carousel .slide-50th-anniversary p {
+    width: 100%; }
+    @media (min-width: 667px) {
+      #hero-carousel .slide-50th-anniversary p {
+        margin-bottom: 5px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-50th-anniversary p {
+        font-size: 17px;
+        font-size: 1.7rem;
+        line-height: 25px;
+        line-height: 2.5rem; } }
+
+/* END slide 50th Anniversary */
+#hero-carousel .slide-iamready {
+  background: url("../img/home/bkgd-slide-i-am-ready-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  #hero-carousel .slide-iamready h1 {
+    padding-top: 50px; }
+  #hero-carousel .slide-iamready .cta {
+    display: inline-block;
+    background-color: #ea7600;
+    color: #fff;
+    padding: 10px 75px;
+    margin: 20px 0 0;
+    border-radius: 5px;
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 24px;
+    line-height: 2.4rem; }
+    #hero-carousel .slide-iamready .cta:hover {
+      color: #fff;
+      text-decoration: none;
+      background-color: #00b7c6; }
+  #hero-carousel .slide-iamready p {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 20px;
+    line-height: 2rem;
+    margin-top: 20px; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-iamready {
+      background: url("../img/home/bkgd-slide-i-am-ready-sm.jpg") center bottom no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-iamready {
+      background: url("../img/home/bkgd-slide-i-am-ready-md.jpg") center bottom no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-iamready {
+      background-position: center bottom; } }
+
+/* SLIDE: Risk-Free Trial */
+#hero-carousel .slide-risk-free-trial {
+  background: url("../img/home/bkgd-slide-risk-free-trial-xs.jpg") bottom center no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-risk-free-trial {
+      padding-right: 0;
+      padding-left: 0;
+      background: url("../img/home/bkgd-slide-risk-free-trial-sm.jpg") bottom right no-repeat;
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-risk-free-trial {
+      background: url("../img/home/bkgd-slide-risk-free-trial-md.jpg") center right no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-risk-free-trial {
+      background-position: center bottom; } }
+  #hero-carousel .slide-risk-free-trial h1 {
+    color: #00b7c6;
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 34px;
+    line-height: 3.4rem;
+    width: 275px;
+    max-width: 100%;
+    margin: 10px auto 15px; }
+    @media (min-width: 600px) {
+      #hero-carousel .slide-risk-free-trial h1 {
+        width: 100%; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-risk-free-trial h1 {
+        margin: 80px auto 30px;
+        font-size: 38px;
+        font-size: 3.8rem;
+        line-height: 38px;
+        line-height: 3.8rem; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-risk-free-trial h1 {
+        font-size: 46px;
+        font-size: 4.6rem;
+        line-height: 46px;
+        line-height: 4.6rem; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-risk-free-trial h1 {
+        margin: 60px auto 30px;
+        font-size: 54px;
+        font-size: 5.4rem;
+        line-height: 54px;
+        line-height: 5.4rem; } }
+    #hero-carousel .slide-risk-free-trial h1 span {
+      font-weight: bold; }
+      @media (min-width: 768px) {
+        #hero-carousel .slide-risk-free-trial h1 span {
+          letter-spacing: 1px;
+          word-spacing: 2px; } }
+  #hero-carousel .slide-risk-free-trial h3 {
+    font-family: 'DIN Next W02 Regular', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17px;
+    font-size: 1.7rem;
+    line-height: 20px;
+    line-height: 2rem;
+    color: #fff;
+    background-color: #da291c;
+    width: 230px;
+    margin: 0 auto 15px;
+    max-width: 100%;
+    padding: 10px 8px 6px; }
+    @media (min-width: 600px) {
+      #hero-carousel .slide-risk-free-trial h3 {
+        width: 340px; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-risk-free-trial h3 {
+        width: 330px;
+        margin: 0 auto 30px;
+        font-size: 16px;
+        font-size: 1.6rem;
+        line-height: 19px;
+        line-height: 1.9rem; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-risk-free-trial h3 {
+        width: 410px;
+        font-size: 21px;
+        font-size: 2.1rem;
+        line-height: 22px;
+        line-height: 2.2rem; } }
+    #hero-carousel .slide-risk-free-trial h3 span {
+      font-weight: bold; }
+  #hero-carousel .slide-risk-free-trial a.cta {
+    border: 3px solid #da291c;
+    color: #da291c;
+    background-color: #fff;
+    padding: 12px 8px 9px;
+    width: 140px;
+    margin: 0 auto;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 22px;
+    line-height: 2.2rem; }
+    #hero-carousel .slide-risk-free-trial a.cta::after {
+      display: none; }
+  #hero-carousel .slide-risk-free-trial p.disclaimer {
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 12px;
+    line-height: 1.2rem;
+    margin-top: 10px; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-risk-free-trial p.disclaimer {
+        position: absolute;
+        bottom: -60px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-risk-free-trial p.disclaimer {
+        bottom: -60px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-risk-free-trial p.disclaimer {
+        bottom: -60px; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-risk-free-trial .col-md-6 {
+      padding-right: 85px; } }
+
+/* END slide Risk-Free Trial */
+/* ====================  */
+/* Z Series - START --   */
+/* ====================  */
+#hero-carousel .slide-z-series {
+  background: url("../img/home/bkgd-slide-zseries-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-z-series {
+      background: url("../img/home/bkgd-slide-zseries-sm.jpg") left center no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-z-series {
+      background: url("../img/home/bkgd-slide-zseries-md.jpg") left center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-z-series {
+      background-position: center center; } }
+  #hero-carousel .slide-z-series h1 {
+    font-size: 42px;
+    font-size: 4.2rem;
+    line-height: 42px;
+    line-height: 4.2rem; }
+    @media (min-width: 414px) {
+      #hero-carousel .slide-z-series h1 {
+        font-size: 46px;
+        font-size: 4.6rem;
+        line-height: 42px;
+        line-height: 4.2rem; } }
+    @media (min-width: 550px) {
+      #hero-carousel .slide-z-series h1 {
+        font-size: 38px;
+        font-size: 3.8rem;
+        line-height: 36px;
+        line-height: 3.6rem; } }
+    @media (min-width: 667px) {
+      #hero-carousel .slide-z-series h1 {
+        margin-top: 30px;
+        font-size: 48px;
+        font-size: 4.8rem;
+        line-height: 45px;
+        line-height: 4.5rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-z-series h1 {
+        margin-top: 56px;
+        font-size: 52px;
+        font-size: 5.2rem;
+        line-height: 48px;
+        line-height: 4.8rem; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-z-series h1 {
+        font-size: 58px;
+        font-size: 5.8rem;
+        line-height: 60px;
+        line-height: 6rem; } }
+
+/* ====================  */
+/* Z Series - END ----   */
+/* ====================  */
+/* ====================  */
+/* Halo - START --   */
+/* ====================  */
+#hero-carousel .slide-halo {
+  background: url("../img/home/bkgd-slide-halo-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-halo {
+      background: url("../img/home/bkgd-slide-halo-sm.jpg") left center no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-halo {
+      background: url("../img/home/bkgd-slide-halo-md.jpg") left center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-halo {
+      background-position: center center; } }
+  #hero-carousel .slide-halo h1 {
+    font-size: 42px;
+    font-size: 4.2rem;
+    line-height: 42px;
+    line-height: 4.2rem; }
+    @media (min-width: 414px) {
+      #hero-carousel .slide-halo h1 {
+        font-size: 46px;
+        font-size: 4.6rem;
+        line-height: 42px;
+        line-height: 4.2rem; } }
+    @media (min-width: 550px) {
+      #hero-carousel .slide-halo h1 {
+        font-size: 38px;
+        font-size: 3.8rem;
+        line-height: 36px;
+        line-height: 3.6rem; } }
+    @media (min-width: 667px) {
+      #hero-carousel .slide-halo h1 {
+        margin-top: 30px;
+        font-size: 48px;
+        font-size: 4.8rem;
+        line-height: 45px;
+        line-height: 4.5rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-halo h1 {
+        margin-top: 56px;
+        font-size: 52px;
+        font-size: 5.2rem;
+        line-height: 48px;
+        line-height: 4.8rem; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-halo h1 {
+        font-size: 58px;
+        font-size: 5.8rem;
+        line-height: 60px;
+        line-height: 6rem; } }
+
+/* ====================  */
+/* Halo - END ----   */
+/* ====================  */
+#hero-carousel .slide-lead-gen {
+  background: url("../img/home/bkgd-slide-lead-gen-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  #hero-carousel .slide-lead-gen h1 {
+    font-size: 38px;
+    font-size: 3.8rem;
+    line-height: 40px;
+    line-height: 4rem;
+    padding-top: 30px; }
+  #hero-carousel .slide-lead-gen h3 {
+    color: #00b7c6;
+    padding-bottom: 10px; }
+    #hero-carousel .slide-lead-gen h3 span {
+      font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif; }
+  #hero-carousel .slide-lead-gen .cta {
+    -webkit-box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 6px 7px 0px rgba(0, 0, 0, 0.15);
+    background-color: #ea7600;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 12px;
+    cursor: pointer; }
+    #hero-carousel .slide-lead-gen .cta:hover {
+      color: #fff;
+      background-color: #00b7c6;
+      text-decoration: none; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-lead-gen {
+      background: url("../img/home/bkgd-slide-lead-gen-sm.jpg") left bottom no-repeat; }
+      #hero-carousel .slide-lead-gen h1 {
+        padding-top: 60px; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-lead-gen {
+      background: url("../img/home/bkgd-slide-lead-gen-md.jpg") left bottom no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-lead-gen {
+      background-position: center bottom; }
+      #hero-carousel .slide-lead-gen h1 {
+        font-size: 47px;
+        font-size: 4.7rem;
+        line-height: 45.8px;
+        line-height: 4.58rem;
+        padding-top: 50px; } }
+
+/* SLIDE 4: SHF: Better hearing is changing lives */
+#hero-carousel .slide-foundation {
+  background: url("../img/home/bkgd-slide-foundation-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-foundation {
+      background: url("../img/home/bkgd-slide-foundation-sm.jpg") left bottom no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-foundation {
+      background: url("../img/home/bkgd-slide-foundation-md.jpg") left bottom no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-foundation {
+      background-position: center bottom; } }
+
+#hero-carousel .slide-foundation h1 {
+  font-size: 44px;
+  font-size: 4.4rem;
+  line-height: 42px;
+  line-height: 4.2rem; }
+  @media (min-width: 375px) {
+    #hero-carousel .slide-foundation h1 {
+      font-size: 48px;
+      font-size: 4.8rem;
+      line-height: 44px;
+      line-height: 4.4rem; } }
+  @media (min-width: 414px) {
+    #hero-carousel .slide-foundation h1 {
+      font-size: 52px;
+      font-size: 5.2rem;
+      line-height: 48px;
+      line-height: 4.8rem; } }
+  @media (min-width: 568px) {
+    #hero-carousel .slide-foundation h1 {
+      margin-top: 25px;
+      font-size: 44px;
+      font-size: 4.4rem;
+      line-height: 48px;
+      line-height: 4.8rem; } }
+  @media (min-width: 667px) {
+    #hero-carousel .slide-foundation h1 {
+      font-size: 50px;
+      font-size: 5rem;
+      line-height: 48px;
+      line-height: 4.8rem; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-foundation h1 {
+      margin-top: 44px;
+      font-size: 56px;
+      font-size: 5.6rem;
+      line-height: 52px;
+      line-height: 5.2rem; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-foundation h1 {
+      margin-top: 38px;
+      font-size: 62px;
+      font-size: 6.2rem;
+      line-height: 56px;
+      line-height: 5.6rem; } }
+
+#hero-carousel .slide-foundation p {
+  margin: 15px 0; }
+  @media (min-width: 375px) {
+    #hero-carousel .slide-foundation p {
+      margin: 15px 7%; } }
+  @media (min-width: 667px) {
+    #hero-carousel .slide-foundation p {
+      margin: 15px 13%; } }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-foundation p {
+      margin: 15px 3%; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-foundation p {
+      margin: 15px 12%; } }
+
+#hero-carousel .slide-foundation img {
+  display: block;
+  width: 140px;
+  height: auto;
+  margin: 20px auto; }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-foundation img {
+      margin: 15px auto; } }
+
+#hero-carousel .slide-foundation a.cta {
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: 22px;
+  line-height: 2.2rem; }
+
+/* END Slide 4 */
+/* SLIDE: 50 Benefits of Better Hearing */
+#hero-carousel .slide-better-hearing {
+  background: url("../img/home/bkgd-slide-better-hearing-md.jpg") bottom center no-repeat;
+  -webkit-background-size: inherit inherit;
+          background-size: inherit;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-better-hearing {
+      padding-right: 0;
+      padding-left: 0;
+      background: url("../img/home/bkgd-slide-better-hearing-md.jpg") bottom left no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-better-hearing {
+      background: url("../img/home/bkgd-slide-better-hearing-md.jpg") center left no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-better-hearing {
+      background-position: center bottom; } }
+  #hero-carousel .slide-better-hearing .col-sm-6 {
+    z-index: 2; }
+  #hero-carousel .slide-better-hearing .booklet-container {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background: url("../img/home/booklet-better-hearing.png") bottom center no-repeat;
+    -webkit-background-size: 230px 230px;
+            background-size: 230px;
+    background-position: center;
+    left: 0;
+    bottom: 25px;
+    z-index: 1; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-better-hearing .booklet-container {
+        height: 400px;
+        width: 400px;
+        -webkit-background-size: 340px 340px;
+                background-size: 340px;
+        left: auto;
+        right: 0; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-better-hearing .booklet-container {
+        left: 0;
+        right: auto;
+        width: 300px;
+        height: 300px;
+        -webkit-background-size: 240px 240px;
+                background-size: 240px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-better-hearing .booklet-container {
+        position: relative;
+        left: -30px;
+        bottom: 230px;
+        width: 390px;
+        height: 330px;
+        -webkit-background-size: 390px 390px;
+                background-size: 390px; } }
+  #hero-carousel .slide-better-hearing .facts-container {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background: url("../img/home/facts-better-hearing.png") bottom center no-repeat;
+    -webkit-background-size: 100% 100%;
+            background-size: 100%;
+    right: -60px;
+    top: 80px;
+    display: none;
+    z-index: 1; }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-better-hearing .facts-container {
+        display: block; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-better-hearing .facts-container {
+        position: relative;
+        width: 380px;
+        height: 430px;
+        top: -645px;
+        right: -815px;
+        -webkit-background-size: 430px 430px;
+                background-size: 430px;
+        background-position: 5px 0; } }
+  #hero-carousel .slide-better-hearing h1 {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 50px;
+    font-size: 5rem;
+    line-height: 50px;
+    line-height: 5rem; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-better-hearing h1 {
+        font-size: 65px;
+        font-size: 6.5rem;
+        line-height: 65px;
+        line-height: 6.5rem;
+        margin-top: 60px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-better-hearing h1 {
+        font-size: 58px;
+        font-size: 5.8rem;
+        line-height: 58px;
+        line-height: 5.8rem;
+        margin-top: 70px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-better-hearing h1 {
+        margin-top: 50px;
+        font-size: 75px;
+        font-size: 7.5rem;
+        line-height: 75px;
+        line-height: 7.5rem; } }
+  #hero-carousel .slide-better-hearing h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 20px;
+    color: #00b7c6;
+    font-size: 29px;
+    font-size: 2.9rem;
+    line-height: 29px;
+    line-height: 2.9rem; }
+  #hero-carousel .slide-better-hearing .cta {
+    display: inline-block;
+    background-color: #ea7600;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 0;
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 24px;
+    line-height: 2.4rem; }
+    #hero-carousel .slide-better-hearing .cta:hover {
+      color: #fff;
+      text-decoration: none;
+      background-color: #00b7c6; }
+
+/* END slide 50 Benefits of Better Hearing */
+/* Slide Muse iQ */
+#hero-carousel .slide-muse-iq {
+  background: url("../img/home/bkgd-slide-muse-iq-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-muse-iq {
+      background: url("../img/home/bkgd-slide-muse-iq-sm.jpg") left center no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-muse-iq {
+      background: url("../img/home/bkgd-slide-muse-iq-md.jpg") left center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-muse-iq {
+      background-position: center center; } }
+  #hero-carousel .slide-muse-iq h1 {
+    margin-top: 40px; }
+  #hero-carousel .slide-muse-iq h3 {
+    margin-top: 10px;
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 28px;
+    line-height: 2.8rem;
+    color: #003a70; }
+    @media (min-width: 667px) {
+      #hero-carousel .slide-muse-iq h3 {
+        margin-top: 15px;
+        font-size: 32px;
+        font-size: 3.2rem;
+        line-height: 32px;
+        line-height: 3.2rem; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-muse-iq h3 {
+        font-size: 36px;
+        font-size: 3.6rem;
+        line-height: 36px;
+        line-height: 3.6rem; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-muse-iq p {
+      margin: 0 19% 20px; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-muse-iq p {
+      margin: 0 24% 20px; } }
+  #hero-carousel .slide-muse-iq a.cta {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 20px;
+    line-height: 2rem;
+    color: #003a70; }
+    #hero-carousel .slide-muse-iq a.cta:hover {
+      color: #ea7600; }
+    @media (min-width: 414px) {
+      #hero-carousel .slide-muse-iq a.cta {
+        font-size: 20px;
+        font-size: 2rem;
+        line-height: 20px;
+        line-height: 2rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-muse-iq a.cta {
+        font-size: 24px;
+        font-size: 2.4rem;
+        line-height: 24px;
+        line-height: 2.4rem; } }
+  #hero-carousel .slide-muse-iq .product-container {
+    position: relative;
+    height: 230px;
+    width: 230px;
+    background: url("../img/home/product-muse-iq.png") bottom center no-repeat;
+    display: none; }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-muse-iq .product-container {
+        bottom: 170px;
+        right: -125px;
+        -webkit-background-size: 230px 230px;
+                background-size: 230px;
+        display: block; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-muse-iq .product-container {
+        right: -215px; } }
+
+/* Slide Muse iQ - END */
+/* Slide Halo iQ */
+#hero-carousel .slide-halo-iq {
+  background: url("../img/home/bkgd-slide-halo-iq-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-halo-iq {
+      background: url("../img/home/bkgd-slide-halo-iq-sm.jpg") left center no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-halo-iq {
+      background: url("../img/home/bkgd-slide-halo-iq-md.jpg") left center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-halo-iq {
+      background-position: center center; } }
+  #hero-carousel .slide-halo-iq h1 {
+    margin-top: 40px; }
+  #hero-carousel .slide-halo-iq h3 {
+    margin-top: 10px;
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 28px;
+    line-height: 2.8rem;
+    color: #003a70; }
+    @media (min-width: 667px) {
+      #hero-carousel .slide-halo-iq h3 {
+        margin-top: 15px;
+        font-size: 32px;
+        font-size: 3.2rem;
+        line-height: 32px;
+        line-height: 3.2rem; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-halo-iq h3 {
+        font-size: 36px;
+        font-size: 3.6rem;
+        line-height: 36px;
+        line-height: 3.6rem; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-halo-iq p {
+      margin: 0 5% 20px; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-halo-iq p {
+      margin: 0 13% 20px; } }
+  #hero-carousel .slide-halo-iq a.cta {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 20px;
+    line-height: 2rem;
+    color: #003a70; }
+    #hero-carousel .slide-halo-iq a.cta:hover {
+      color: #ea7600; }
+    @media (min-width: 414px) {
+      #hero-carousel .slide-halo-iq a.cta {
+        font-size: 20px;
+        font-size: 2rem;
+        line-height: 20px;
+        line-height: 2rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-halo-iq a.cta {
+        font-size: 24px;
+        font-size: 2.4rem;
+        line-height: 24px;
+        line-height: 2.4rem; } }
+  #hero-carousel .slide-halo-iq .product-container {
+    position: relative;
+    height: 230px;
+    width: 230px;
+    background: url("../img/home/product-halo-iq.png") bottom center no-repeat;
+    display: none; }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-halo-iq .product-container {
+        bottom: 220px;
+        right: -75px;
+        -webkit-background-size: 230px 230px;
+                background-size: 230px;
+        display: block; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-halo-iq .product-container {
+        right: -165px; } }
+
+/* Slide Halo iQ - END */
+/* SLIDE: Soundlens Synergy iQ */
+#hero-carousel .slide-soundlens-synergy-iq {
+  background: url("../img/home/bkgd-slide-soundlens-synergy-iq-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-soundlens-synergy-iq {
+      background: url("../img/home/bkgd-slide-soundlens-synergy-iq-sm.jpg") right center no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-soundlens-synergy-iq {
+      background: url("../img/home/bkgd-slide-soundlens-synergy-iq-md.jpg") center center no-repeat; } }
+  #hero-carousel .slide-soundlens-synergy-iq h1 {
+    margin: 40px auto 10px;
+    max-width: 400px; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-soundlens-synergy-iq h1 {
+        font-size: 60px;
+        font-size: 6rem;
+        line-height: 56px;
+        line-height: 5.6rem;
+        margin: 15px 0 10px 50px;
+        text-align: left; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-soundlens-synergy-iq h1 {
+        font-size: 65px;
+        font-size: 6.5rem;
+        line-height: 65px;
+        line-height: 6.5rem;
+        margin: 25px auto 10px;
+        text-align: center; } }
+  #hero-carousel .slide-soundlens-synergy-iq h3 {
+    margin-top: 10px;
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 28px;
+    line-height: 2.8rem;
+    color: #003a70; }
+    @media (min-width: 667px) {
+      #hero-carousel .slide-soundlens-synergy-iq h3 {
+        margin-top: 15px;
+        font-size: 32px;
+        font-size: 3.2rem;
+        line-height: 32px;
+        line-height: 3.2rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-soundlens-synergy-iq h3 {
+        margin-left: 60px;
+        margin-top: 0;
+        text-align: left;
+        width: 210px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-soundlens-synergy-iq h3 {
+        font-size: 36px;
+        font-size: 3.6rem;
+        line-height: 36px;
+        line-height: 3.6rem;
+        margin-left: 0;
+        width: 100%;
+        text-align: center; } }
+    #hero-carousel .slide-soundlens-synergy-iq h3 sup.tm {
+      top: -1.2em;
+      font-size: 11px;
+      font-size: 1.1rem;
+      line-height: 11px;
+      line-height: 1.1rem; }
+  #hero-carousel .slide-soundlens-synergy-iq p {
+    margin: 0 auto 20px;
+    max-width: 373px; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-soundlens-synergy-iq p {
+        text-align: left;
+        margin-left: 60px;
+        width: 210px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-soundlens-synergy-iq p {
+        margin: 0 auto 30px;
+        text-align: center;
+        width: 375px;
+        max-width: 100%; } }
+  #hero-carousel .slide-soundlens-synergy-iq a.cta {
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 20px;
+    line-height: 2rem;
+    color: #003a70; }
+    #hero-carousel .slide-soundlens-synergy-iq a.cta:hover {
+      color: #ea7600; }
+    @media (min-width: 414px) {
+      #hero-carousel .slide-soundlens-synergy-iq a.cta {
+        font-size: 20px;
+        font-size: 2rem;
+        line-height: 20px;
+        line-height: 2rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-soundlens-synergy-iq a.cta {
+        font-size: 24px;
+        font-size: 2.4rem;
+        line-height: 24px;
+        line-height: 2.4rem;
+        float: left;
+        margin-left: 60px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-soundlens-synergy-iq a.cta {
+        float: none;
+        margin: 0 auto;
+        width: 200px; } }
+  #hero-carousel .slide-soundlens-synergy-iq .product-container {
+    position: relative;
+    height: 137px;
+    width: 107px;
+    background: url("../img/home/product-soundlens-synergy-iq.png") top left no-repeat;
+    display: none; }
+    @media (min-width: 550px) {
+      #hero-carousel .slide-soundlens-synergy-iq .product-container {
+        display: block;
+        -webkit-background-size: 80px 80px;
+                background-size: 80px;
+        left: 18%;
+        top: -20px; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-soundlens-synergy-iq .product-container {
+        display: block;
+        -webkit-background-size: 90px 90px;
+                background-size: 90px;
+        top: -70px;
+        left: 250px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-soundlens-synergy-iq .product-container {
+        top: -95px;
+        left: 150px;
+        -webkit-background-size: 107px 137px;
+                background-size: 107px 137px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-soundlens-synergy-iq .product-container {
+        left: 240px; } }
+
+/* END SLIDE: Soundlens Synergy iQ */
+/* Slide Cognitive Decline - March Consumer Campaign */
+#hero-carousel .slide-cognitive-decline {
+  background: url("../img/home/bkgd-slide-cognitive-decline-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: left; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-cognitive-decline {
+      background: url("../img/home/bkgd-slide-cognitive-decline-sm.jpg") center center no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-cognitive-decline {
+      background: url("../img/home/bkgd-slide-cognitive-decline-md.jpg") right center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-cognitive-decline {
+      background-position: center center; } }
+  #hero-carousel .slide-cognitive-decline h1 {
+    text-align: left;
+    color: #00b7c6;
+    margin: 40px 0 20px;
+    width: 275px;
+    max-width: 100%;
+    font-size: 40px;
+    font-size: 4rem;
+    line-height: 40px;
+    line-height: 4rem; }
+    @media (min-width: 575px) {
+      #hero-carousel .slide-cognitive-decline h1 {
+        margin: 80px 0 20px;
+        width: 370px;
+        font-size: 55px;
+        font-size: 5.5rem;
+        line-height: 55px;
+        line-height: 5.5rem; } }
+    @media (min-width: 650px) {
+      #hero-carousel .slide-cognitive-decline h1 {
+        margin-left: 40px; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-cognitive-decline h1 {
+        margin: 66px 40px 32px;
+        width: 440px;
+        font-size: 64px;
+        font-size: 6.4rem;
+        line-height: 64px;
+        line-height: 6.4rem; } }
+    @media (min-width: 808px) {
+      #hero-carousel .slide-cognitive-decline h1 {
+        margin-left: 0; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-cognitive-decline h1 {
+        margin: 66px 20px 36px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-cognitive-decline h1 {
+        margin-left: 55px; } }
+    #hero-carousel .slide-cognitive-decline h1 span {
+      font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 40px;
+      font-size: 4rem;
+      line-height: 40px;
+      line-height: 4rem; }
+      @media (min-width: 575px) {
+        #hero-carousel .slide-cognitive-decline h1 span {
+          font-size: 55px;
+          font-size: 5.5rem;
+          line-height: 55px;
+          line-height: 5.5rem; } }
+      @media (min-width: 768px) {
+        #hero-carousel .slide-cognitive-decline h1 span {
+          font-size: 64px;
+          font-size: 6.4rem;
+          line-height: 64px;
+          line-height: 6.4rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-cognitive-decline h1 .hidden-md-up {
+        display: none; } }
+  #hero-carousel .slide-cognitive-decline a.cta {
+    color: #b6bc00;
+    display: inline-block;
+    font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 22px;
+    line-height: 2.2rem; }
+    @media (min-width: 575px) {
+      #hero-carousel .slide-cognitive-decline a.cta {
+        font-size: 30px;
+        font-size: 3rem;
+        line-height: 30px;
+        line-height: 3rem; } }
+    @media (min-width: 650px) {
+      #hero-carousel .slide-cognitive-decline a.cta {
+        margin-left: 40px; } }
+    @media (min-width: 808px) {
+      #hero-carousel .slide-cognitive-decline a.cta {
+        margin-left: 0; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-cognitive-decline a.cta {
+        margin-left: 20px;
+        font-size: 36px;
+        font-size: 3.6rem;
+        line-height: 36px;
+        line-height: 3.6rem; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-cognitive-decline a.cta {
+        margin-left: 55px; } }
+    #hero-carousel .slide-cognitive-decline a.cta:after {
+      content: "\e258\e258";
+      font-size: .4em;
+      top: -0.1em; }
+
+/* Slide Cognitive Decline - March Consumer Campaign - END */
+/* Slide Int'l Innovation History */
+#hero-carousel .slide-innovation-history {
+  background: url("../img/home/bkgd-slide-innovation-history-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-innovation-history {
+      background: url("../img/home/bkgd-slide-innovation-history-sm.jpg") right center no-repeat;
+      text-align: left; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-innovation-history {
+      background: url("../img/home/bkgd-slide-innovation-history-md.jpg") right center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-innovation-history {
+      background-position: center center; } }
+  #hero-carousel .slide-innovation-history h1 {
+    text-align: center;
+    color: #00b7c6;
+    margin: 40px 0 15px;
+    width: 100%;
+    font-size: 33px;
+    font-size: 3.3rem;
+    line-height: 33px;
+    line-height: 3.3rem; }
+    @media (min-width: 575px) {
+      #hero-carousel .slide-innovation-history h1 {
+        font-size: 44px;
+        font-size: 4.4rem;
+        line-height: 44px;
+        line-height: 4.4rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-innovation-history h1 {
+        text-align: left;
+        margin: 80px 0 10px 20px;
+        font-size: 53px;
+        font-size: 5.3rem;
+        line-height: 53px;
+        line-height: 5.3rem; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-innovation-history h1 {
+        margin: 60px 0 10px 60px;
+        font-size: 64px;
+        font-size: 6.4rem;
+        line-height: 64px;
+        line-height: 6.4rem; } }
+    #hero-carousel .slide-innovation-history h1 span {
+      font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 33px;
+      font-size: 3.3rem;
+      line-height: 33px;
+      line-height: 3.3rem; }
+      @media (min-width: 575px) {
+        #hero-carousel .slide-innovation-history h1 span {
+          font-size: 44px;
+          font-size: 4.4rem;
+          line-height: 44px;
+          line-height: 4.4rem; } }
+      @media (min-width: 768px) {
+        #hero-carousel .slide-innovation-history h1 span {
+          font-size: 53px;
+          font-size: 5.3rem;
+          line-height: 53px;
+          line-height: 5.3rem; } }
+      @media (min-width: 992px) {
+        #hero-carousel .slide-innovation-history h1 span {
+          font-size: 64px;
+          font-size: 6.4rem;
+          line-height: 64px;
+          line-height: 6.4rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-innovation-history h1 .hidden-md-up {
+        display: none; } }
+  #hero-carousel .slide-innovation-history h3 {
+    text-align: center;
+    color: #ea7600;
+    margin: 0 0 30px;
+    font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 24px;
+    line-height: 2.4rem; }
+    @media (min-width: 575px) {
+      #hero-carousel .slide-innovation-history h3 {
+        font-size: 29px;
+        font-size: 2.9rem;
+        line-height: 29px;
+        line-height: 2.9rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-innovation-history h3 {
+        text-align: left;
+        margin: 0 0 35px 20px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-innovation-history h3 {
+        margin: 0 0 55px 60px;
+        font-size: 34.5px;
+        font-size: 3.45rem;
+        line-height: 34.5px;
+        line-height: 3.45rem; } }
+  #hero-carousel .slide-innovation-history a.cta {
+    display: inline-block;
+    color: #00b7c6;
+    font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 22px;
+    line-height: 2.2rem; }
+    @media (min-width: 575px) {
+      #hero-carousel .slide-innovation-history a.cta {
+        font-size: 28px;
+        font-size: 2.8rem;
+        line-height: 28px;
+        line-height: 2.8rem; } }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-innovation-history a.cta {
+        margin-left: 20px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-innovation-history a.cta {
+        font-size: 30px;
+        font-size: 3rem;
+        line-height: 30px;
+        line-height: 3rem;
+        margin-left: 210px; } }
+    #hero-carousel .slide-innovation-history a.cta:after {
+      content: "\e258\e258";
+      font-size: .4em;
+      top: -0.1em; }
+  #hero-carousel .slide-innovation-history .innovation-images {
+    position: relative;
+    margin: 20px auto 0;
+    width: 220px;
+    max-width: 100%;
+    height: 180px;
+    background: url("../img/home/product-innovation-thumbnails.png") top center no-repeat;
+    -webkit-background-size: 100% 100%;
+            background-size: 100%; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-innovation-history .innovation-images {
+        position: absolute;
+        background: url("../img/home/product-innovation-thumbnails.png") top left no-repeat;
+        -webkit-background-size: 100% 100%;
+                background-size: 100%;
+        margin-top: 0;
+        width: 240px;
+        height: 180px;
+        top: 10px;
+        right: 0; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-innovation-history .innovation-images {
+        width: 310px;
+        height: 190px;
+        top: 80px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-innovation-history .innovation-images {
+        width: 510px;
+        height: 300px;
+        top: 60px;
+        right: 20px; } }
+
+/* Slide Int'l Innovation History - END */
+/* Slide Tinnitus Awareness - April Consumer Campaign */
+#hero-carousel .slide-tinnitus-awareness {
+  background: url("../img/home/bkgd-slide-tinnitus-awareness-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: left; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-tinnitus-awareness {
+      background: url("../img/home/bkgd-slide-tinnitus-awareness-sm.jpg") center center no-repeat; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-tinnitus-awareness {
+      background: url("../img/home/bkgd-slide-tinnitus-awareness-md.jpg") right center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-tinnitus-awareness {
+      background-position: center center; } }
+  #hero-carousel .slide-tinnitus-awareness h1 {
+    text-align: left;
+    color: #00b7c6;
+    margin: 100px 0 20px;
+    width: 185;
+    max-width: 100%;
+    font-size: 40px;
+    font-size: 4rem;
+    line-height: 40px;
+    line-height: 4rem; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-tinnitus-awareness h1 {
+        margin: 66px 40px 32px;
+        width: 260px;
+        font-size: 54px;
+        font-size: 5.4rem;
+        line-height: 54px;
+        line-height: 5.4rem; } }
+    @media (min-width: 808px) {
+      #hero-carousel .slide-tinnitus-awareness h1 {
+        margin-left: 0; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-tinnitus-awareness h1 {
+        margin: 66px 20px 50px;
+        width: auto;
+        font-size: 59px;
+        font-size: 5.9rem;
+        line-height: 59px;
+        line-height: 5.9rem; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-tinnitus-awareness h1 {
+        margin-left: 55px;
+        font-size: 80px;
+        font-size: 8rem;
+        line-height: 80px;
+        line-height: 8rem; } }
+    #hero-carousel .slide-tinnitus-awareness h1 span {
+      font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 40px;
+      font-size: 4rem;
+      line-height: 40px;
+      line-height: 4rem; }
+      @media (min-width: 768px) {
+        #hero-carousel .slide-tinnitus-awareness h1 span {
+          font-size: 54px;
+          font-size: 5.4rem;
+          line-height: 54px;
+          line-height: 5.4rem; } }
+      @media (min-width: 992px) {
+        #hero-carousel .slide-tinnitus-awareness h1 span {
+          font-size: 59px;
+          font-size: 5.9rem;
+          line-height: 59px;
+          line-height: 5.9rem; } }
+      @media (min-width: 1200px) {
+        #hero-carousel .slide-tinnitus-awareness h1 span {
+          font-size: 80px;
+          font-size: 8rem;
+          line-height: 80px;
+          line-height: 8rem; } }
+  #hero-carousel .slide-tinnitus-awareness a.cta {
+    color: #ea7600;
+    display: inline-block;
+    width: 185px;
+    max-width: 100%;
+    font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    font-size: 2.2rem;
+    line-height: 22px;
+    line-height: 2.2rem; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-tinnitus-awareness a.cta {
+        width: 154px;
+        margin-left: 40px;
+        font-size: 27px;
+        font-size: 2.7rem;
+        line-height: 27px;
+        line-height: 2.7rem; } }
+    @media (min-width: 808px) {
+      #hero-carousel .slide-tinnitus-awareness a.cta {
+        margin-left: 0; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-tinnitus-awareness a.cta {
+        margin-left: 20px;
+        width: 300px;
+        font-size: 36px;
+        font-size: 3.6rem;
+        line-height: 36px;
+        line-height: 3.6rem; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-tinnitus-awareness a.cta {
+        width: auto;
+        margin-left: 55px; } }
+    #hero-carousel .slide-tinnitus-awareness a.cta:after {
+      content: "\e258\e258";
+      font-size: .4em;
+      top: -0.1em; }
+
+/* Slide Tinnitus Awareness - April Consumer Campaign - END */
+/* Slide May is Better Hearing Month - May Consumer Campaign */
+#hero-carousel .slide-may-consumer-campaign {
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-may-consumer-campaign {
+      background: url("../img/home/bkgd-slide-may-consumer-campaign-sm.jpg") center right no-repeat;
+      text-align: left; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-may-consumer-campaign {
+      background: url("../img/home/bkgd-slide-may-consumer-campaign-md.jpg") right center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-may-consumer-campaign {
+      background-position: center center; } }
+  #hero-carousel .slide-may-consumer-campaign h1 {
+    position: relative;
+    text-align: center;
+    color: #00b7c6;
+    margin: 40px 0 20px;
+    text-transform: uppercase;
+    font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    font-size: 5rem;
+    line-height: 50px;
+    line-height: 5rem; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-may-consumer-campaign h1 {
+        height: 220px;
+        text-align: left;
+        margin: 30px 0 20px;
+        width: 290px;
+        padding-left: 20px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-may-consumer-campaign h1 {
+        height: 128px;
+        margin: 120px 0 20px;
+        width: 460px;
+        font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 54px;
+        font-size: 5.4rem;
+        line-height: 54px;
+        line-height: 5.4rem; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-may-consumer-campaign h1 {
+        height: auto;
+        margin: 70px 0 43px;
+        width: 610px;
+        font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 76px;
+        font-size: 7.6rem;
+        line-height: 76px;
+        line-height: 7.6rem; } }
+    #hero-carousel .slide-may-consumer-campaign h1:after {
+      display: none;
+      content: '';
+      width: 100%;
+      height: 6px;
+      bottom: 0;
+      background-color: #00b7c6; }
+      @media (min-width: 768px) {
+        #hero-carousel .slide-may-consumer-campaign h1:after {
+          position: absolute;
+          display: block;
+          top: 212px;
+          left: 20px;
+          width: 190px; } }
+      @media (min-width: 992px) {
+        #hero-carousel .slide-may-consumer-campaign h1:after {
+          top: 120px;
+          width: 395px; } }
+      @media (min-width: 1200px) {
+        #hero-carousel .slide-may-consumer-campaign h1:after {
+          top: 162px;
+          width: 555px; } }
+  #hero-carousel .slide-may-consumer-campaign h2 {
+    color: #666;
+    margin-bottom: 20px;
+    font-family: 'Mr Eaves', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+    font-size: 2.6rem;
+    line-height: 26px;
+    line-height: 2.6rem; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-may-consumer-campaign h2 {
+        text-align: left;
+        padding-left: 20px;
+        width: 305px;
+        font-size: 25px;
+        font-size: 2.5rem;
+        line-height: 25px;
+        line-height: 2.5rem; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-may-consumer-campaign h2 {
+        width: 345px;
+        font-size: 28px;
+        font-size: 2.8rem;
+        line-height: 28px;
+        line-height: 2.8rem; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-may-consumer-campaign h2 {
+        width: auto;
+        font-size: 36px;
+        font-size: 3.6rem;
+        line-height: 36px;
+        line-height: 3.6rem; } }
+  #hero-carousel .slide-may-consumer-campaign a.cta {
+    color: #fff;
+    background-color: #ea7600;
+    text-align: center;
+    display: inline-block;
+    padding: 16px 18px 12px;
+    max-width: 100%;
+    text-transform: uppercase;
+    font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    font-size: 2rem;
+    line-height: 20px;
+    line-height: 2rem; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-may-consumer-campaign a.cta {
+        display: block;
+        position: absolute;
+        top: 82px;
+        right: 250px; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-may-consumer-campaign a.cta {
+        top: 150px;
+        right: 320px; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-may-consumer-campaign a.cta {
+        top: 145px;
+        right: 290px;
+        padding: 19px 26px 13px;
+        font-size: 23px;
+        font-size: 2.3rem;
+        line-height: 23px;
+        line-height: 2.3rem; } }
+
+/* Slide May is Better Hearing Month - May Consumer Campaign - END */
+/* Slide Men's Health - June Consumer Campaign */
+#hero-carousel .slide-mens-health {
+  background: url("../img/home/bkgd-slide-mens-health-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px; }
+  @media (min-width: 768px) {
+    #hero-carousel .slide-mens-health {
+      background: url("../img/home/bkgd-slide-mens-health-sm.jpg") center center no-repeat;
+      text-align: left; } }
+  @media (min-width: 992px) {
+    #hero-carousel .slide-mens-health {
+      background: url("../img/home/bkgd-slide-mens-health-md.jpg") center center no-repeat; } }
+  @media (min-width: 1200px) {
+    #hero-carousel .slide-mens-health {
+      background-position: center center; } }
+  #hero-carousel .slide-mens-health h1 {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(28, 152, 181, 0.8);
+    background-color: rgba(8, 166, 193, 0.8);
+    margin: 30px 0 10px;
+    padding: 17px 26px 11px;
+    width: 100%;
+    font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 33px;
+    font-size: 3.3rem;
+    line-height: 33px;
+    line-height: 3.3rem; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-mens-health h1 {
+        text-align: left;
+        margin: 55px 0 10px;
+        max-width: 460px;
+        font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 48px;
+        font-size: 4.8rem;
+        line-height: 48px;
+        line-height: 4.8rem; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-mens-health h1 {
+        margin: 55px 0 10px 10px;
+        max-width: 570px;
+        font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 58px;
+        font-size: 5.8rem;
+        line-height: 58px;
+        line-height: 5.8rem; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-mens-health h1 {
+        margin: 55px 0 10px 20px;
+        padding: 22px 28px 16px;
+        max-width: 660px;
+        font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 69px;
+        font-size: 6.9rem;
+        line-height: 69px;
+        line-height: 6.9rem; } }
+  #hero-carousel .slide-mens-health a.cta {
+    color: #b6bc00;
+    text-align: center;
+    display: inline-block;
+    padding: 16px 18px 12px;
+    max-width: 100%;
+    font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 27px;
+    font-size: 2.7rem;
+    line-height: 27px;
+    line-height: 2.7rem; }
+    @media (min-width: 768px) {
+      #hero-carousel .slide-mens-health a.cta {
+        margin-left: 10px;
+        font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 28px;
+        font-size: 2.8rem;
+        line-height: 28px;
+        line-height: 2.8rem; } }
+    @media (min-width: 992px) {
+      #hero-carousel .slide-mens-health a.cta {
+        margin-left: 15px;
+        font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 32px;
+        font-size: 3.2rem;
+        line-height: 32px;
+        line-height: 3.2rem; } }
+    @media (min-width: 1200px) {
+      #hero-carousel .slide-mens-health a.cta {
+        margin-left: 25px;
+        font-family: 'Mr Eaves Bold Italic', Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 38px;
+        font-size: 3.8rem;
+        line-height: 38px;
+        line-height: 3.8rem; } }
+    #hero-carousel .slide-mens-health a.cta:after {
+      font-size: 1.3rem; }
+      @media (min-width: 1200px) {
+        #hero-carousel .slide-mens-health a.cta:after {
+          font-size: 1.6rem; } }
+
+/* Slide Men's Health - June Consumer Campaign - END */
+/* Promo Boxes  -------------------------------------------------- */
+#promo-boxes {
+  position: relative;
+  padding-bottom: 0;
+  border-bottom: 1px solid #e1e1e1;
+  background-color: #f8f8f8; }
+  @media (min-width: 1200px) {
+    #promo-boxes {
+      border: none;
+      background-color: #fff; } }
+
+@media (min-width: 1200px) {
+  #promo-boxes .container {
+    width: 100%;
+    position: relative;
+    padding: 0 auto;
+    border-bottom: 1px solid #e1e1e1;
+    background-color: #f8f8f8; } }
+@media (min-width: 1250px) {
+  #promo-boxes .container {
+    width: 1250px;
+    padding: 0 40px; } }
+
+#promo-boxes .container:after {
+  content: " ";
+  background: url("../img/home/promo-notch.png") 0 0 no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  display: block;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 1;
+  margin-left: -20px; }
+
+#promo-boxes .row > div {
+  border-top: 1px solid #e1e1e1;
+  text-align: center; }
+  @media (min-width: 768px) {
+    #promo-boxes .row > div {
+      border-top: none;
+      border-right: 3px solid #fff;
+      border-left: 3px solid #fff; }
+      #promo-boxes .row > div:first-child {
+        border-left: 0; }
+      #promo-boxes .row > div:last-child {
+        border-right: 0; } }
+
+#promo-boxes h3 {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-size: 32px;
+  font-size: 3.2rem;
+  line-height: 30px;
+  line-height: 3rem; }
+  @media (min-width: 768px) {
+    #promo-boxes h3 {
+      margin-top: 20px; } }
+
+#promo-boxes h5 {
+  margin-top: 0;
+  font-family: 'Mr Eaves Book', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 23px;
+  font-size: 2.3rem;
+  line-height: 20px;
+  line-height: 2rem;
+  color: #00b7c6; }
+
+#promo-boxes p {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 14px;
+  line-height: 1.4rem; }
+  @media (min-width: 768px) {
+    #promo-boxes p {
+      margin-bottom: 20px; } }
+
+#promo-boxes .promo2 {
+  background: url("../img/home/promo-helping-a-loved-one.png") 0 0 no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain; }
+
+/* Hearing Loss  -------------------------------------------------- */
+#hearing-loss {
+  padding-top: 60px;
+  background: url("../img/home/bkgd-hearing-loss.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  @media (min-width: 768px) {
+    #hearing-loss {
+      padding-top: 30px; } }
+  @media (min-width: 1200px) {
+    #hearing-loss {
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+
+#hearing-loss .slides {
+  max-width: 248px;
+  height: auto;
+  margin: 10px auto 20px;
+  padding: 0;
+  list-style: none; }
+
+#hearing-loss .slides li {
+  border: 4px solid #e1e1e1;
+  border-radius: 50%;
+  background-clip: padding-box;
+  background: #fff; }
+
+#hearing-loss .slides li img {
+  width: 100%;
+  max-width: 248px; }
+
+#hearing-loss #fact-nav,
+#hearing-loss .flex-direction-nav {
+  display: none; }
+
+@media (min-width: 570px) {
+  #hearing-loss .content p {
+    padding-right: 20%; } }
+@media (min-width: 768px) {
+  #hearing-loss .video-left {
+    margin-bottom: 0; }
+
+  #hearing-loss .video-left .image,
+  #hearing-loss .video-right .image,
+  #hearing-loss .video-left .content,
+  #hearing-loss .video-right .content {
+    padding: 0;
+    text-align: center; }
+
+  #hearing-loss .image a {
+    float: none; }
+
+  #hearing-loss .content p {
+    padding-right: 0; } }
+/* end @media (min-width: 768px) */
+/* Hearing Health & Wellness  -------------------------------------------------- */
+#hearing-health {
+  padding-top: 30px;
+  padding-bottom: 120px;
+  background: url("../img/home/bkgd-hearing-health-wellness-xs.jpg") left bottom no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain; }
+  @media (min-width: 768px) {
+    #hearing-health {
+      padding-bottom: 100px;
+      background: url("../img/home/bkgd-hearing-health-wellness-sm.jpg") left bottom no-repeat; } }
+  @media (min-width: 992px) {
+    #hearing-health {
+      padding-bottom: 50px; } }
+  @media (min-width: 1200px) {
+    #hearing-health {
+      background-position: center bottom; } }
+
+#hearing-health .infographics {
+  margin-top: 20px; }
+
+#hearing-health .infographics .row {
+  margin-right: 0;
+  margin-left: 0; }
+
+#hearing-health .infographics .row:first-child {
+  border-bottom: 1px solid #e1e1e1; }
+
+#hearing-health .column-1 {
+  /* removed nested padding from the first infographic column */
+  padding-right: 0;
+  padding-left: 0; }
+
+#hearing-health .graphic-1-1 {
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 20px 20px 20px; }
+
+#hearing-health .graphic-1-2a {
+  border-right: 1px solid #e1e1e1; }
+
+#hearing-health .graphic-1-2a,
+#hearing-health .graphic-1-2b {
+  padding: 20px; }
+
+#hearing-health .graphic-1-3 {
+  padding: 20px 20px 0 20px; }
+
+#hearing-health .graphic-2-1 {
+  padding: 0 20px 15px 20px; }
+
+#hearing-health .graphic-2-2 {
+  padding: 15px 20px 0 20px; }
+
+@media (min-width: 992px) {
+  #hearing-health .graphic-1-1,
+  #hearing-health .graphic-1-2b,
+  #hearing-health .graphic-1-3 {
+    border-right: 1px solid #e1e1e1; } }
+/* end @media (min-width: 992px) */
+/* Hearing Test  -------------------------------------------------- */
+#hearing-test {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: url("../img/home/bkgd-hearing-test.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  @media (min-width: 1200px) {
+    #hearing-test {
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+
+#hearing-test .headline-block {
+  margin: 0;
+  background-color: #00b7c6; }
+
+#hearing-test h1 {
+  margin-top: 15px;
+  font-size: 44px;
+  font-size: 4.4rem;
+  line-height: 44px;
+  line-height: 4.4rem;
+  color: #fff; }
+
+#hearing-test .content-block {
+  margin: 0;
+  padding: 2em 1.5em;
+  background-color: rgba(255, 255, 255, 0.9); }
+
+#hearing-test h2 {
+  color: #00b7c6; }
+
+#hearing-test p {
+  text-align: center; }
+
+#hearing-test .cta {
+  margin: 20px 0 10px;
+  text-align: center; }
+
+#hearing-test .cta a {
+  display: block;
+  width: 170px;
+  margin: 0 auto;
+  padding: 10px 0 8px 0;
+  font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 17px;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #fff;
+  background: #00b7c6;
+  white-space: nowrap;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15); }
+
+#hearing-test .cta a + a {
+  margin-top: 16px; }
+
+#hearing-test .cta a:after {
+  content: "\e258";
+  position: relative;
+  font-size: 1rem;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle; }
+
+#hearing-test .cta a:hover {
+  background-color: #ea7600;
+  text-decoration: none; }
+
+@media (min-width: 480px) {
+  #hearing-test .cta a {
+    display: inline-block; }
+
+  #hearing-test .cta a + a {
+    margin-top: 0;
+    margin-left: 16px; } }
+@media (min-width: 768px) {
+  #hearing-test .headline-block,
+  #hearing-test .content-block {
+    margin-right: -15px;
+    margin-left: -15px; }
+
+  #hearing-test h2 {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 32px;
+    line-height: 3.2rem;
+    text-align: left; }
+
+  #hearing-test p {
+    text-align: left; }
+
+  #hearing-test .cta {
+    text-align: left; }
+
+  #hearing-test .test-icon {
+    position: relative; }
+
+  #hearing-test .test-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; }
+
+  #hearing-test .test-icon a {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    margin-left: -15px;
+    padding-top: 3px;
+    border: 2px solid #fff;
+    font-family: 'Mr Eaves', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 60px;
+    line-height: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #00b7c6;
+    color: #fff;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15); }
+
+  #hearing-test .test-icon a:hover {
+    text-decoration: none;
+    background-color: #ea7600; } }
+/* end @media (min-width: 768px) */
+@media (min-width: 992px) {
+  #hearing-test h2 {
+    margin-top: 20px;
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 40px;
+    line-height: 4rem; }
+
+  #hearing-test p {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 24px;
+    line-height: 2.4rem; }
+
+  .content-block > div:first-child {
+    padding-right: 50px;
+    padding-left: 40px; }
+
+  #hearing-test .test-icon a {
+    max-width: 332px;
+    height: 80px;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -166px;
+    padding-top: 4px;
+    font-size: 46px;
+    font-size: 4.6rem;
+    line-height: 80px;
+    line-height: 8rem; } }
+/* end @media (min-width: 992px) */
+/* Your Options  -------------------------------------------------- */
+#your-options {
+  padding-top: 30px;
+  padding-bottom: 0; }
+
+#your-options hr {
+  position: relative;
+  top: 200px;
+  height: 17px;
+  margin: 0;
+  border-top: 0;
+  background: url("../img/home/bkgd-your-options.png") center top no-repeat; }
+  @media (min-width: 768px) {
+    #your-options hr {
+      top: 135px; } }
+  @media (min-width: 992px) {
+    #your-options hr {
+      top: 145px; } }
+
+#your-options #gallery {
+  margin-top: -17px; }
+
+#your-options .slides {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#your-options .flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#your-options .flex-direction-nav a {
+  position: absolute;
+  top: 80px;
+  display: block;
+  width: 46px;
+  height: 50px;
+  text-indent: -9000px; }
+
+#your-options .flex-direction-nav .flex-prev {
+  left: 0;
+  background: url("../img/home/arrow-previous.png") center center no-repeat; }
+
+#your-options .flex-direction-nav .flex-next {
+  right: 0;
+  background: url("../img/home/arrow-next.png") center center no-repeat; }
+
+#your-options .slides .product img {
+  display: block;
+  margin: 0 auto; }
+
+#your-options .product-details {
+  margin-top: 30px; }
+
+#your-options .product-details h3 {
+  font-size: 26px;
+  font-size: 2.6rem;
+  line-height: 28px;
+  line-height: 2.8rem;
+  color: #00b7c6; }
+
+#your-options .product-details p {
+  font-family: 'DIN Next W02 Light', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 21px;
+  line-height: 2.1rem; }
+
+#your-options .product-details a {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 6px 6px;
+  border: 1px solid #e1e1e1;
+  font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 17px;
+  line-height: 1.7rem;
+  text-align: center;
+  white-space: nowrap; }
+
+#your-options .product-details a:after {
+  content: "\e258";
+  position: relative;
+  font-size: 1rem;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle; }
+
+#your-options .product-details a:hover {
+  color: #ea7600;
+  text-decoration: none; }
+
+#your-options .product-images {
+  margin-top: 12px; }
+
+#your-options .product-images img {
+  max-width: 100%;
+  margin-top: 12px;
+  border: 2px solid #e1e1e1;
+  border-radius: 50%;
+  background-clip: padding-box; }
+
+#your-options #gallery-nav .flex-control-nav.flex-control-paging {
+  display: none; }
+
+@media (min-width: 768px) {
+  #your-options .content {
+    display: block; }
+
+  #your-options #gallery-nav {
+    margin: 16px 0; }
+
+  #your-options #gallery-nav li {
+    display: table-cell !important;
+    width: 10% !important;
+    /* 100% width / 10 product categories */
+    float: none !important;
+    margin-right: 0 !important;
+    opacity: 100 !important;
+    text-align: center; }
+
+  #your-options #gallery-nav li img {
+    max-width: 100%;
+    width: 100%;
+    /* needed to add this for Firefox */
+    margin: 0 5px; }
+
+  #your-options #gallery-nav p {
+    margin-top: 4px;
+    font-size: 10px;
+    font-size: 1rem;
+    line-height: 12px;
+    line-height: 1.2rem; }
+
+  #your-options #gallery-nav .flex-active-slide p {
+    font-family: 'DIN Next W02 Bold', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+    font-size: 1rem;
+    line-height: 12px;
+    line-height: 1.2rem;
+    color: #000 !important;
+    /* need to override hover */ }
+
+  #your-options #gallery-nav li:hover p {
+    color: #ea7600; }
+
+  #your-options .flex-direction-nav a {
+    top: 236px; }
+
+  #your-options .flex-direction-nav .flex-prev {
+    left: 8px; }
+
+  #your-options .flex-direction-nav .flex-next {
+    right: 8px; }
+
+  #your-options .product-details h3 {
+    font-size: 36px;
+    font-size: 3.6rem;
+    line-height: 40px;
+    line-height: 4rem; }
+
+  #your-options .product-images img {
+    max-width: 44%;
+    margin-top: 44px;
+    margin-left: 3%; } }
+/* end @media (min-width: 768px) */
+@media (min-width: 992px) {
+  #your-options .flex-direction-nav a {
+    top: 250px; }
+
+  #your-options .product-details h3 {
+    font-size: 40px;
+    font-size: 4rem;
+    line-height: 44px;
+    line-height: 4.4rem; } }
+/* end @media (min-width: 768px) */
+/* Hearing Finder (part of Your Options)  -------------------------------------------- */
+#hearing-finder {
+  margin-top: 20px;
+  border-top: 1px solid #e1e1e1;
+  padding-bottom: 0;
+  background-color: #f8f8f8;
+  text-align: center; }
+  @media (min-width: 1200px) {
+    #hearing-finder {
+      border: none;
+      background-color: #fff; } }
+
+#hearing-finder .container {
+  padding-top: 22px;
+  padding-bottom: 24px; }
+  @media (min-width: 1200px) {
+    #hearing-finder .container {
+      width: 100%;
+      border-top: 1px solid #e1e1e1;
+      background-color: #f8f8f8; } }
+  @media (min-width: 1250px) {
+    #hearing-finder .container {
+      width: 1250px;
+      padding-right: 40px;
+      padding-left: 40px; } }
+
+#hearing-finder a {
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  padding: 10px 10px 8px;
+  font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 19px;
+  font-size: 1.9rem;
+  line-height: 19px;
+  line-height: 1.9rem;
+  text-align: center;
+  color: #00b7c6;
+  background: #fff;
+  white-space: nowrap;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1); }
+  @media (min-width: 768px) {
+    #hearing-finder a {
+      font-size: 22px;
+      font-size: 2.2rem;
+      line-height: 24px;
+      line-height: 2.4rem; } }
+
+#hearing-finder a:after {
+  content: "\e258";
+  position: relative;
+  font-size: 1.3rem;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle; }
+
+#hearing-finder a:hover {
+  color: #ea7600;
+  text-decoration: none; }
+
+/* Don't Wait  -------------------------------------------------- */
+#dont-wait {
+  padding-top: 40px;
+  background: url("../img/home/bkgd-dont-wait-xs.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  @media (min-width: 768px) {
+    #dont-wait {
+      padding-bottom: 60px;
+      background: url("../img/home/bkgd-dont-wait-sm.jpg") center center no-repeat;
+      -webkit-background-size: cover;
+              background-size: cover; } }
+  @media (min-width: 992px) {
+    #dont-wait {
+      padding-bottom: 80px; } }
+  @media (min-width: 1200px) {
+    #dont-wait {
+      -webkit-background-size: inherit inherit;
+              background-size: inherit; } }
+
+#dont-wait h2 {
+  margin-bottom: 20px;
+  padding: 0 4%; }
+  @media (min-width: 768px) {
+    #dont-wait h2 {
+      padding-right: 10%;
+      padding-left: 10%; } }
+  @media (min-width: 992px) {
+    #dont-wait h2 {
+      padding-right: 18%;
+      padding-left: 18%; } }
+
+/* Get Started/Footer  -------------------------------------------------- */
+#get-started {
+  padding-top: 40px;
+  padding-bottom: 170px;
+  background: url("../img/home/bkgd-get-started-xs.jpg") center bottom no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100%; }
+  @media (min-width: 570px) {
+    #get-started {
+      padding-bottom: 280px; } }
+  @media (min-width: 992px) {
+    #get-started {
+      background: url("../img/home/bkgd-get-started-sm.jpg") right bottom no-repeat; } }
+  @media (min-width: 992px) {
+    #get-started {
+      padding: 50px 0 160px; } }
+  @media (min-width: 1200px) {
+    #get-started {
+      background-position: center bottom; } }
+
+@media (min-width: 768px) {
+  #get-started h1 {
+    margin-bottom: 15px;
+    font-size: 58px;
+    font-size: 5.8rem;
+    line-height: 58px;
+    line-height: 5.8rem; } }
+
+#get-started h2 {
+  margin-bottom: 20px;
+  color: #00b7c6;
+  font-size: 28px;
+  font-size: 2.8rem;
+  line-height: 31px;
+  line-height: 3.1rem; }
+  @media (min-width: 768px) {
+    #get-started h2 {
+      margin-bottom: 28px;
+      padding: 0 20%;
+      font-size: 32px;
+      font-size: 3.2rem;
+      line-height: 36px;
+      line-height: 3.6rem; } }
+  @media (min-width: 992px) {
+    #get-started h2 {
+      padding: 0 27%;
+      font-size: 34px;
+      font-size: 3.4rem;
+      line-height: 38px;
+      line-height: 3.8rem; } }
+
+#get-started .cta {
+  text-align: center; }
+
+#get-started .cta > div {
+  display: inline-block;
+  float: left; }
+  @media (min-width: 992px) {
+    #get-started .cta > div {
+      margin-left: 8px; } }
+
+#get-started .cta:first-child > div {
+  float: right; }
+
+#get-started .cta a {
+  display: inline-block;
+  width: 130px;
+  padding: 8px 0 6px 0;
+  font-family: 'Mr Eaves Bold', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 17px;
+  font-size: 1.7rem;
+  line-height: 17px;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #fff;
+  background: #00b7c6;
+  white-space: nowrap;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15); }
+  @media (min-width: 768px) {
+    #get-started .cta a {
+      width: 150px;
+      font-size: 19px;
+      font-size: 1.9rem;
+      line-height: 19px;
+      line-height: 1.9rem; } }
+  @media (min-width: 992px) {
+    #get-started .cta a {
+      width: 160px;
+      padding: 10px 0 8px 0;
+      font-size: 21px;
+      font-size: 2.1rem;
+      line-height: 21px;
+      line-height: 2.1rem; } }
+
+#get-started .cta a:after {
+  content: "\e258";
+  position: relative;
+  font-size: 1rem;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: bold;
+  margin-left: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: middle; }
+
+#get-started .cta a:hover {
+  background-color: #ea7600;
+  text-decoration: none; }
+
+@media (min-width: 992px) {
+  #get-started .cta:first-child > div {
+    margin: 0 8px 0 0; } }
+
+#get-started .cta p {
+  margin-top: 8px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 13px;
+  line-height: 1.3rem; }
+  @media (min-width: 768px) {
+    #get-started .cta p {
+      margin-top: 10px;
+      font-size: 16px;
+      font-size: 1.6rem;
+      line-height: 16px;
+      line-height: 1.6rem; } }
+  @media (min-width: 992px) {
+    #get-started .cta p {
+      margin-top: 12px;
+      font-size: 18px;
+      font-size: 1.8rem;
+      line-height: 18px;
+      line-height: 1.8rem; } }
+
+.three-tier + .main-container {
+  padding-top: 96px; }
+
+#mega-banner-top,
+#mega-banner-bottom,
+#image-tiles,
+#three-link-icon-cta,
+#left-pill-cta,
+#right-image-cta,
+#hearing-aid-styles,
+#dont-wait-single-link {
+  padding-bottom: 0; }
+  #mega-banner-top h2,
+  #mega-banner-bottom h2,
+  #image-tiles h2,
+  #three-link-icon-cta h2,
+  #left-pill-cta h2,
+  #right-image-cta h2,
+  #hearing-aid-styles h2,
+  #dont-wait-single-link h2 {
+    font-family: "Mr Eaves XL Sans", Arial, sans-serif;
+    font-size: 3rem;
+    font-size: 9.5vw;
+    line-height: 1.1;
+    font-weight: 300;
+    color: #1e9be9; }
+  #mega-banner-top h4,
+  #mega-banner-bottom h4,
+  #image-tiles h4,
+  #three-link-icon-cta h4,
+  #left-pill-cta h4,
+  #right-image-cta h4,
+  #hearing-aid-styles h4,
+  #dont-wait-single-link h4 {
+    font-family: "Mr Eaves XL Sans", Arial, sans-serif;
+    font-size: 1.9rem;
+    font-size: 6vw;
+    line-height: 1.2;
+    color: #3b3d40;
+    text-align: center; }
+  #mega-banner-top .btn,
+  #mega-banner-bottom .btn,
+  #image-tiles .btn,
+  #three-link-icon-cta .btn,
+  #left-pill-cta .btn,
+  #right-image-cta .btn,
+  #hearing-aid-styles .btn,
+  #dont-wait-single-link .btn {
+    border: 1px solid #1e9be9;
+    border-radius: 6vw;
+    padding: 2.5vw 6.25vw 1.875vw;
+    background-color: #1e9be9;
+    background-clip: border-box;
+    font-family: "DIN Next", Arial, sans-serif;
+    font-size: 1.3rem;
+    font-size: 4.1vw;
+    line-height: 1;
+    font-weight: 500;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    #mega-banner-top .btn:after,
+    #mega-banner-bottom .btn:after,
+    #image-tiles .btn:after,
+    #three-link-icon-cta .btn:after,
+    #left-pill-cta .btn:after,
+    #right-image-cta .btn:after,
+    #hearing-aid-styles .btn:after,
+    #dont-wait-single-link .btn:after {
+      display: none; }
+    #mega-banner-top .btn:hover, #mega-banner-top .btn:active,
+    #mega-banner-bottom .btn:hover,
+    #mega-banner-bottom .btn:active,
+    #image-tiles .btn:hover,
+    #image-tiles .btn:active,
+    #three-link-icon-cta .btn:hover,
+    #three-link-icon-cta .btn:active,
+    #left-pill-cta .btn:hover,
+    #left-pill-cta .btn:active,
+    #right-image-cta .btn:hover,
+    #right-image-cta .btn:active,
+    #hearing-aid-styles .btn:hover,
+    #hearing-aid-styles .btn:active,
+    #dont-wait-single-link .btn:hover,
+    #dont-wait-single-link .btn:active {
+      background-color: #fff;
+      color: #1e9be9; }
+  @media only screen and (min-width: 768px) {
+    #mega-banner-top h2,
+    #mega-banner-bottom h2,
+    #image-tiles h2,
+    #three-link-icon-cta h2,
+    #left-pill-cta h2,
+    #right-image-cta h2,
+    #hearing-aid-styles h2,
+    #dont-wait-single-link h2 {
+      font-size: 3.8rem; }
+    #mega-banner-top h4,
+    #mega-banner-bottom h4,
+    #image-tiles h4,
+    #three-link-icon-cta h4,
+    #left-pill-cta h4,
+    #right-image-cta h4,
+    #hearing-aid-styles h4,
+    #dont-wait-single-link h4 {
+      font-size: 2rem; }
+    #mega-banner-top .btn,
+    #mega-banner-bottom .btn,
+    #image-tiles .btn,
+    #three-link-icon-cta .btn,
+    #left-pill-cta .btn,
+    #right-image-cta .btn,
+    #hearing-aid-styles .btn,
+    #dont-wait-single-link .btn {
+      font-size: 1.6rem;
+      padding: 8px 20px 6px; } }
+  @media only screen and (min-width: 992px) {
+    #mega-banner-top h2,
+    #mega-banner-bottom h2,
+    #image-tiles h2,
+    #three-link-icon-cta h2,
+    #left-pill-cta h2,
+    #right-image-cta h2,
+    #hearing-aid-styles h2,
+    #dont-wait-single-link h2 {
+      font-size: 5rem; }
+    #mega-banner-top h4,
+    #mega-banner-bottom h4,
+    #image-tiles h4,
+    #three-link-icon-cta h4,
+    #left-pill-cta h4,
+    #right-image-cta h4,
+    #hearing-aid-styles h4,
+    #dont-wait-single-link h4 {
+      font-size: 2.8rem; }
+    #mega-banner-top .btn,
+    #mega-banner-bottom .btn,
+    #image-tiles .btn,
+    #three-link-icon-cta .btn,
+    #left-pill-cta .btn,
+    #right-image-cta .btn,
+    #hearing-aid-styles .btn,
+    #dont-wait-single-link .btn {
+      border-radius: 20px;
+      padding: 10px 28px 8px;
+      font-size: 1.8rem; } }
+
+#mega-banner-top {
+  background-position: right 72% bottom;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  text-align: center; }
+  #mega-banner-top .col-sm-12 {
+    position: relative;
+    padding: 0 0 425px; }
+  #mega-banner-top .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px; }
+  #mega-banner-top h1 {
+    width: 78%;
+    margin: 36px auto 12px;
+    font-family: "Mr Eaves XL Sans", Arial, sans-serif;
+    font-size: 3rem;
+    font-size: 9.5vw;
+    line-height: 1;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 0px 0px 44px black; }
+  #mega-banner-top h3 {
+    width: 78%;
+    margin: 12px auto 20px;
+    font-family: "Mr Eaves XL Sans", Arial, sans-serif;
+    font-size: 1.9rem;
+    font-size: 6vw;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0px 0px 44px black; }
+  @media only screen and (min-width: 400px) {
+    #mega-banner-top {
+      background-position: right 82% bottom; } }
+  @media only screen and (min-width: 768px) {
+    #mega-banner-top {
+      background-position: right 58% bottom; }
+      #mega-banner-top .col-sm-12 {
+        padding-bottom: 540px; }
+      #mega-banner-top .content {
+        padding: 0 30px;
+        text-align: left; }
+      #mega-banner-top h1 {
+        width: 390px;
+        margin: 30px 0 12px;
+        font-size: 5rem;
+        text-align: left; }
+      #mega-banner-top h3 {
+        width: auto;
+        margin-left: 0;
+        font-size: 2.4rem; } }
+  @media only screen and (min-width: 992px) {
+    #mega-banner-top .col-sm-12 {
+      padding-bottom: 630px; }
+    #mega-banner-top .content {
+      padding: 0 15px; }
+    #mega-banner-top h1 {
+      width: 520px;
+      margin: 30px 0 12px;
+      font-size: 7rem; }
+    #mega-banner-top h3 {
+      font-size: 3rem; } }
+  @media only screen and (min-width: 1440px) {
+    #mega-banner-top {
+      padding-top: 3.75%;
+      padding-bottom: 40%;
+      background-position: center bottom; }
+      #mega-banner-top .col-sm-12 {
+        padding-bottom: 0; }
+      #mega-banner-top h1 {
+        margin-top: 0; } }
+
+#mega-banner-bottom {
+  margin-bottom: 15px;
+  border-bottom: 2px dotted #ccc;
+  text-align: center; }
+  #mega-banner-bottom .col-sm-4 {
+    position: relative; }
+    #mega-banner-bottom .col-sm-4 img {
+      display: block;
+      width: 75%;
+      max-width: 260px;
+      margin: -93px auto 0;
+      -webkit-animation: shake 1s ease .8s;
+              animation: shake 1s ease .8s;
+      -webkit-animation-iteration-count: 1;
+              animation-iteration-count: 1; }
+  #mega-banner-bottom .col-sm-8 {
+    text-align: center; }
+  #mega-banner-bottom h4 {
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto; }
+  #mega-banner-bottom .btn {
+    margin-bottom: 8%; }
+@-webkit-keyframes shake {
+  10%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0); } }
+@keyframes shake {
+  10%, 90% {
+    -webkit-transform: translate3d(-1px, 0, 0);
+            transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    -webkit-transform: translate3d(2px, 0, 0);
+            transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    -webkit-transform: translate3d(-4px, 0, 0);
+            transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    -webkit-transform: translate3d(4px, 0, 0);
+            transform: translate3d(4px, 0, 0); } }
+  @media only screen and (min-width: 600px) {
+    #mega-banner-bottom .col-sm-4 img {
+      margin-top: -50px; } }
+  @media only screen and (min-width: 768px) {
+    #mega-banner-bottom .col-sm-4 img {
+      width: 100%;
+      max-width: none;
+      margin-top: -90px; }
+    #mega-banner-bottom h2 {
+      margin-top: 20px; }
+    #mega-banner-bottom h4 {
+      width: 280px; }
+    #mega-banner-bottom .btn {
+      margin-bottom: 25px; } }
+  @media only screen and (min-width: 992px) {
+    #mega-banner-bottom .col-sm-4 img {
+      margin-top: -130px; }
+    #mega-banner-bottom h2 {
+      margin-top: 25px; }
+    #mega-banner-bottom h4 {
+      width: 400px; }
+    #mega-banner-bottom .btn {
+      margin-bottom: 35px; } }
+  @media only screen and (min-width: 1200px) {
+    #mega-banner-bottom .col-sm-4 img {
+      margin-top: -206px; }
+    #mega-banner-bottom h2 {
+      margin-top: 30px; }
+    #mega-banner-bottom h4 {
+      width: auto; }
+    #mega-banner-bottom .btn {
+      margin: 20px 0 40px; } }
+
+#image-tiles .image-tile {
+  padding: 0; }
+  #image-tiles .image-tile + .image-tile {
+    margin-top: 2px; }
+  #image-tiles .image-tile a {
+    position: relative;
+    display: block;
+    padding-bottom: 73%;
+    -webkit-background-size: cover;
+            background-size: cover; }
+    #image-tiles .image-tile a .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      padding: 5% 10px;
+      background-color: transparent;
+      -webkit-transition: background-color .3s ease;
+      transition: background-color .3s ease; }
+    #image-tiles .image-tile a:hover {
+      text-decoration: none; }
+      #image-tiles .image-tile a:hover .overlay {
+        background-color: rgba(59, 61, 64, 0.5); }
+  #image-tiles .image-tile h5 {
+    margin: 0;
+    font-family: "DIN Next", Arial, sans-serif;
+    font-size: 5.15vw;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 3px 9px rgba(0, 0, 0, 0.22); }
+  #image-tiles .image-tile.dark-font h5 {
+    color: #3b3d40;
+    text-shadow: none; }
+@media only screen and (min-width: 768px) {
+  #image-tiles {
+    margin: -2px; }
+    #image-tiles .image-tile + .image-tile {
+      margin-top: 0; }
+    #image-tiles .image-tile a {
+      margin: 2px; }
+    #image-tiles .image-tile h5 {
+      font-size: 2.4vw; } }
+@media only screen and (min-width: 992px) {
+  #image-tiles .image-tile h5 {
+    font-size: 1.65vw; } }
+
+#three-link-icon-cta {
+  margin-top: 15px;
+  border-top: 2px dotted #ccc;
+  padding-bottom: 10px; }
+  #three-link-icon-cta h2 {
+    width: 94%;
+    margin: 20px auto 10px; }
+  #three-link-icon-cta h4 {
+    margin: 10px auto 30px; }
+  #three-link-icon-cta .icon-wrapper {
+    border-top: 2px dotted #ccc;
+    border-bottom: 2px dotted #ccc; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 a {
+      display: block;
+      max-width: 400px;
+      margin: 20px 15px; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4 a:hover {
+        text-decoration: none; }
+        #three-link-icon-cta .icon-wrapper .col-sm-4 a:hover p strong {
+          color: #1e9be9; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 img {
+      float: left;
+      width: 56px;
+      width: 17.5%;
+      margin: 4px 0 0 5px; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 p {
+      margin: 0 0 0 26.875%;
+      font-family: "DIN Next", Arial, sans-serif;
+      font-size: 1.5rem;
+      font-size: 4.7vw;
+      line-height: 1.4; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4 p strong {
+        font-family: "DIN Next", Arial, sans-serif; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(3) img {
+      margin-top: 12px; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 + .col-sm-4 a {
+      border-top: 2px dotted #ccc;
+      padding-top: 18px; }
+  @media only screen and (min-width: 375px) {
+    #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(3) img {
+      margin-top: 4px; } }
+  @media only screen and (min-width: 400px) {
+    #three-link-icon-cta .icon-wrapper .col-sm-4 a {
+      margin: 24px auto; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 + .col-sm-4 a {
+      padding-top: 24px; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(1) img {
+      margin-top: -6px; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(2) img {
+      margin-top: -4px; } }
+  @media only screen and (min-width: 590px) {
+    #three-link-icon-cta .icon-wrapper .col-sm-4 p {
+      font-size: 2.8rem; } }
+  @media only screen and (min-width: 768px) {
+    #three-link-icon-cta h2 {
+      width: auto;
+      margin-top: 28px; }
+    #three-link-icon-cta h4 {
+      max-width: 480px;
+      margin-bottom: 38px; }
+    #three-link-icon-cta .icon-wrapper .row {
+      padding: 25px 0; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 + .col-sm-4 {
+      border-left: 2px dotted #ccc; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4 + .col-sm-4 a {
+        border-top: 0;
+        padding-top: 0; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 a {
+      margin: 0; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 img {
+      width: 52px; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(1) img, #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(2) img {
+      margin-top: 4px; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(3) img {
+      margin-top: 12px; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 p {
+      margin-left: 74px;
+      font-size: 1.4rem; } }
+  @media only screen and (min-width: 992px) {
+    #three-link-icon-cta h2 {
+      margin-top: 36px; }
+    #three-link-icon-cta h4 {
+      max-width: 760px;
+      margin-bottom: 44px; }
+    #three-link-icon-cta .icon-wrapper .row {
+      padding: 30px 0; }
+    #three-link-icon-cta .icon-wrapper .col-sm-4 {
+      min-height: 115px;
+      padding: 0 30px; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4 img {
+        width: 56px; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(1) img, #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(2) img {
+        margin-top: 8px; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(3) img {
+        margin-top: 18px; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4 p {
+        margin-left: 84px;
+        font-size: 1.7rem; } }
+  @media only screen and (min-width: 1200px) {
+    #three-link-icon-cta .icon-wrapper .col-sm-4 {
+      min-height: auto;
+      padding: 0 32px; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(1) img, #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(2) img {
+        margin-top: 17px; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4:nth-child(3) img {
+        margin-top: 28px; }
+      #three-link-icon-cta .icon-wrapper .col-sm-4 p {
+        margin-left: 88px;
+        font-size: 2rem; } }
+
+#left-pill-cta {
+  margin-bottom: 10px; }
+  #left-pill-cta .container {
+    position: relative;
+    padding-bottom: 78.125%; }
+  #left-pill-cta .col-sm-4 {
+    text-align: center; }
+  #left-pill-cta h2 {
+    width: 76%;
+    margin: 20px auto 6px; }
+  #left-pill-cta h4 {
+    width: 76%;
+    margin: 6px auto 15px; }
+  #left-pill-cta .btn {
+    margin-bottom: 20px; }
+  #left-pill-cta img {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    width: 146%; }
+  @media only screen and (min-width: 768px) {
+    #left-pill-cta {
+      margin-top: 20px; }
+      #left-pill-cta .container {
+        padding: 60px 0; }
+      #left-pill-cta h2,
+      #left-pill-cta h4 {
+        width: 240px; }
+      #left-pill-cta img {
+        right: auto;
+        left: -228px;
+        width: auto;
+        height: 340px; } }
+  @media only screen and (min-width: 992px) {
+    #left-pill-cta .container {
+      padding: 90px 0; }
+    #left-pill-cta h2 {
+      width: auto; }
+    #left-pill-cta img {
+      left: -290px;
+      height: 445px; } }
+  @media only screen and (min-width: 1200px) {
+    #left-pill-cta {
+      margin-top: 30px; }
+      #left-pill-cta .container {
+        padding: 160px 0; }
+      #left-pill-cta img {
+        left: -340px;
+        height: 585px; } }
+
+#right-image-cta .col-sm-5 {
+  text-align: center; }
+#right-image-cta h2 {
+  width: 76%;
+  margin: 40px auto 6px; }
+#right-image-cta h4 {
+  width: 91%;
+  margin: 6px auto 16px; }
+#right-image-cta .btn {
+  margin-bottom: 30px; }
+#right-image-cta img {
+  display: block;
+  width: 100%;
+  margin-bottom: -25%; }
+@media only screen and (min-width: 768px) {
+  #right-image-cta h2 {
+    width: 240px;
+    margin-top: 66px; }
+  #right-image-cta h4 {
+    width: 290px; }
+  #right-image-cta img {
+    margin-bottom: -20%; } }
+@media only screen and (min-width: 992px) {
+  #right-image-cta h2 {
+    width: auto; } }
+@media only screen and (min-width: 1200px) {
+  #right-image-cta h2 {
+    margin-top: 140px; }
+  #right-image-cta h4 {
+    width: 380px; }
+  #right-image-cta img {
+    width: 91%;
+    margin: 0 auto -15%; } }
+
+#hearing-aid-styles {
+  margin-bottom: 15px;
+  border-top: 2px dotted #ccc;
+  border-bottom: 2px dotted #ccc;
+  padding-bottom: 20px;
+  background-color: #fff; }
+  #hearing-aid-styles h2 {
+    margin-top: 26px; }
+  #hearing-aid-styles h4 {
+    width: 72%;
+    margin: 10px auto 0; }
+  #hearing-aid-styles hr {
+    position: relative;
+    top: 200px;
+    height: 2px;
+    margin: 0;
+    border-top: 2px dotted #ccc;
+    background: none; }
+  #hearing-aid-styles .slides {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  #hearing-aid-styles .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #hearing-aid-styles .flex-direction-nav a {
+      position: absolute;
+      top: 80px;
+      display: block;
+      width: 46px;
+      height: 36px;
+      text-indent: -9000px; }
+    #hearing-aid-styles .flex-direction-nav .flex-prev {
+      left: 0;
+      background: url("../img/home/arrow-previous.svg") center center no-repeat; }
+    #hearing-aid-styles .flex-direction-nav .flex-next {
+      right: 0;
+      background: url("../img/home/arrow-next.svg") center center no-repeat; }
+  #hearing-aid-styles .product img {
+    display: block;
+    margin: 0 auto; }
+  #hearing-aid-styles .product-details {
+    margin-top: 20px;
+    padding-left: 1px; }
+    #hearing-aid-styles .product-details h3 {
+      font-family: "Mr Eaves XL Sans", Arial, sans-serif;
+      font-size: 2rem;
+      font-size: 6.25vw;
+      font-weight: 400;
+      line-height: 1;
+      color: #1e9be9; }
+    #hearing-aid-styles .product-details p {
+      margin-bottom: 5.5%;
+      font-family: "DIN Next", Arial, sans-serif;
+      font-size: 1.4rem;
+      font-size: 4.375vw;
+      line-height: 1.14;
+      color: #3b3d40; }
+    #hearing-aid-styles .product-details .btn {
+      margin-top: 8px; }
+  #hearing-aid-styles .product-images {
+    margin-top: 12px; }
+    #hearing-aid-styles .product-images img {
+      max-width: 100%;
+      margin-top: 12px;
+      border: 2px solid #e1e1e1;
+      border-radius: 50%; }
+  @media only screen and (min-width: 768px) {
+    #hearing-aid-styles h4 {
+      width: auto; }
+    #hearing-aid-styles hr {
+      display: none; }
+    #hearing-aid-styles .product-list {
+      margin-top: 30px;
+      list-style: none; }
+      #hearing-aid-styles .product-list li {
+        float: left;
+        width: 25%;
+        min-height: 180px;
+        padding: 5px 10px; }
+      #hearing-aid-styles .product-list a {
+        display: inline-block; }
+        #hearing-aid-styles .product-list a:hover, #hearing-aid-styles .product-list a:active {
+          text-decoration: none; }
+          #hearing-aid-styles .product-list a:hover img:first-child, #hearing-aid-styles .product-list a:active img:first-child {
+            opacity: 0; }
+          #hearing-aid-styles .product-list a:hover img + img, #hearing-aid-styles .product-list a:active img + img {
+            opacity: 1; }
+          #hearing-aid-styles .product-list a:hover p, #hearing-aid-styles .product-list a:active p {
+            color: #1e9be9; }
+      #hearing-aid-styles .product-list img {
+        display: block;
+        max-width: 100%;
+        opacity: 1;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+      #hearing-aid-styles .product-list img + img {
+        height: 110px;
+        margin: -118px auto 10px;
+        border-radius: 50%;
+        opacity: 0; }
+      #hearing-aid-styles .product-list p {
+        font-family: "DIN Next", Arial, sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.2;
+        color: #3b3d40;
+        text-align: center;
+        -webkit-transition: color 0.3s ease-in-out;
+        transition: color 0.3s ease-in-out; } }
+  @media only screen and (min-width: 992px) {
+    #hearing-aid-styles .product-list li {
+      width: 16.66%;
+      min-height: 160px; }
+    #hearing-aid-styles .product-list p {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    #hearing-aid-styles {
+      padding-bottom: 10px; }
+      #hearing-aid-styles .product-list li {
+        min-height: 185px; }
+      #hearing-aid-styles .product-list p {
+        font-size: 1.7rem; } }
+
+#dont-wait-single-link {
+  background-position: 46% top;
+  background-repeat: no-repeat;
+  -webkit-background-size: 310% 310%;
+          background-size: 310%; }
+  #dont-wait-single-link .col-sm-12 {
+    position: relative;
+    padding: 0 0 122%; }
+  #dont-wait-single-link .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center; }
+  #dont-wait-single-link h2 {
+    margin: 6% auto 1.5%; }
+  #dont-wait-single-link h4 {
+    width: 74%;
+    margin: 1.5% auto 4.1%; }
+  @media only screen and (min-width: 768px) {
+    #dont-wait-single-link {
+      background-position: left 41% bottom -30px;
+      -webkit-background-size: 1100px 1100px;
+              background-size: 1100px; }
+      #dont-wait-single-link .col-sm-12 {
+        padding-bottom: 380px; }
+      #dont-wait-single-link h2 {
+        margin: 24px auto 6px; }
+      #dont-wait-single-link h4 {
+        width: 320px;
+        margin: 6px auto 16px; } }
+  @media only screen and (min-width: 992px) {
+    #dont-wait-single-link {
+      background-position: left 39% bottom -20px;
+      -webkit-background-size: 1400px 1400px;
+              background-size: 1400px; }
+      #dont-wait-single-link .col-sm-12 {
+        padding-bottom: 480px; }
+      #dont-wait-single-link h4 {
+        width: 640px; } }
+  @media only screen and (min-width: 1200px) {
+    #dont-wait-single-link {
+      background-position: left 47% bottom;
+      -webkit-background-size: cover;
+              background-size: cover; }
+      #dont-wait-single-link .container {
+        width: 100%; }
+      #dont-wait-single-link .col-sm-12 {
+        padding-bottom: 40%; }
+      #dont-wait-single-link h2 {
+        margin: 2% auto .5%; }
+      #dont-wait-single-link h4 {
+        margin: 0.5% auto 1.3%; } }
+
+/*# sourceMappingURL=home.css.map */

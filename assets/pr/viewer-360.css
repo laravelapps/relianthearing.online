@@ -1,0 +1,64 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+#image-holder-360 {
+    margin: 0 auto;
+    /* width: 260px; */
+    cursor: pointer;
+}
+
+    #image-holder-360 .spinner {
+        height: 308px;
+        background: url(../images/360/360_controls.jpg) #fff no-repeat center bottom;
+    }
+
+#viewer-360 ul {
+    padding: 0 100px;
+    text-align: left;
+}
+
+    #viewer-360 ul li {
+        display: inline-block;
+        border: solid 1px #898989;
+        -ms-border-radius: 30px;
+        border-radius: 30px;
+        position: relative;
+    }
+
+        #viewer-360 ul li a {
+            display: block;
+            width: 30px;
+            height: 30px;
+            margin: 0;
+        }
+
+            #viewer-360 ul li a span.title {
+                display: none;
+            }
+
+            #viewer-360 ul li a:hover span.title-holder {
+                position: absolute;
+                width: 150px;
+                top: -28px;
+                left: -60px;
+                text-align: center;
+            }
+
+            #viewer-360 ul li a:hover span.title {
+                display: inline;
+                position: relative;
+                color: #fff;
+                background: #555;
+                padding: 5px;
+                -ms-border-radius: 3px;
+                border-radius: 3px;
+                font-size: 12px;
+                white-space: nowrap;
+            }
+
+.reel-indicator {
+    top: 274px !important;
+    background: url(../images/360/360_knob.png) no-repeat transparent !important;
+    height: 23px !important;
+    width: 15px !important;
+}
